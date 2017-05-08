@@ -1,0 +1,1127 @@
+{"entities": ["to_place", "to_date"], "entities1": ["from_date"], "intent": ["flight_book", "hotel_book"], "usersay": "\u5e2e\u5fd9\u8ba2\u4e0b\u4eca\u5929\u4e0b\u5348\u5230\u5e7f\u5dde\u7684\u673a\u7968\u548c\u5bbe\u9986", "entities_data": {"from_time_period": "\u4e0b\u5348 to_date", "checkin_date": "\u4eca\u5929", "checkin_time_period": "\u4e0b\u5348", "to_place": "\u5e7f\u5dde"}}
+
+{"entities": ["to_time_period", "passenger"], "entities1": ["to_time_period"], "intent": ["flight_book", "hotel_book"], "usersay": "\u6211\u81ea\u5df1\uff0c6\u30017\u70b9\u949f\u5427", "entities_data": {"to_time_period": "6\u30017\u70b9\u949f", "checkin_time_period": "6\u30017\u70b9\u949f", "person": "\u6211\u81ea\u5df1", "passenger": "\u6211\u81ea\u5df1"}}
+
+{"entities": ["idcard_no"], "entities1": ["idcard_no"], "intent": ["flight_book", "hotel_book"], "usersay": "*****", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["person_amount", "checkin_date", "day_amount", "room_type "], "entities1": ["to_time"], "intent": ["hotel_book"], "usersay": "1\u4e2a\u4eba\uff0c10\u670828\u65e5\u5165\u4f4f\uff0c\u4f4f\u4e24\u665a\uff0c\u623f\u578b\u6807\u95f4\u5c31\u884c\u3002", "entities_data": {"checkin_date": "\uff0c10\u670828\u65e5\u5165\u4f4f", "day_amount": "\uff0c\u4f4f\u4e24\u665a", "person_amount": "1\u4e2a\u4eba", "room_type": "\u6807\u95f4"}}
+
+{"entities": ["map_sort", "venue_facility "], "entities1": ["to_place"], "intent": ["hotel_book"], "usersay": "\u4f4d\u7f6e\u79bb\u673a\u573a\u8fd1\u4e00\u70b9\uff0c\u8bbe\u65bd\u548c\u623f\u5185\u8bbe\u65bd\u6ca1\u6709\u8981\u6c42\uff0c\u6700\u597d\u6709\u514d\u8d39wifi", "entities_data": {"map_sort": "\u79bb\u673a\u573a\u8fd1\u4e00\u70b9", "venue_facility": "\u514d\u8d39wifi"}}
+
+{"entities1": ["aircraft"], "intent": ["thanks"], "usersay": "\u597d\u7684\u8c22\u8c22"}
+
+{"entities_data": {"from_date": "\u660e\u5929", "from_time": "3\u70b9"}, "intents": ["flight_book", "train_book"], "entities": ["from_time", "from_date\uff0cpassenger"], "entities1": ["from_airport"], "intent": ["ticket_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e0b\u7968\u5457\uff0c\u660e\u5929\u4e0b\u53483:30\u7684\uff0c\u4f18\u51483\u70b9\u7684"}
+
+{"entities": ["to_place", "from_place"], "entities1": ["to_airport"], "intent": ["flight_book"], "usersay": "\u4ece\u5e7f\u5dde\u8fd4\u56de\u5317\u4eac\u7684", "entities_data": {"from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities1": ["to_terminal_building"], "intent": ["thanks"], "usersay": "\u8c22\u8c22"}
+
+{"entities": ["from_date", "airline", "flight", "from_time", "aircraft", "from_time", "from_airport", "from_terminal_building", "to_time"], "entities1": ["ticket_price"], "intent": ["flight_book", "hotel_book"], "usersay": "\u8bf7\u5e2e\u5fd9\u5b9a\u4e0b\u673a\u7968\uff0c12\u67089\u65e5 \u660e\u5929\u6d77\u5357\u822a\u7a7aHU7277\u8ba1\u5212\u673a\u578b\uff1a333(\u5927)09:05\u9996\u90fd\u56fd\u9645\u673a\u573aT111:15", "entities_data": {"flight": "HU7277", "from_date": "\u660e\u5929", "aircraft": "333(\u5927)", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u6d77\u5357\u822a\u7a7a", "to_time": "11", "from_terminal_building": "T1", "from_time": "09"}}
+
+{"entities1": ["train_type"], "intent": ["thanks"], "usersay": "\u8c22\u8c22"}
+
+{"entities": ["airline", "flight", "from_time", "aircraft", "from_airport", "to_time", "from_terminal_building", "to_airport", "to_terminal_building", "ticket_price"], "entities1": ["time_time_deadline"], "intent": ["flight_book"], "usersay": "\u6d77\u5357\u822a\u7a7aHU7178\u8ba1\u5212\u673a\u578b\uff1a767(\u5927)20:20\u8427\u5c71\u56fd\u9645\u673a\u573aT322:35\u9996\u90fd\u56fd\u9645\u673a\u573aT1\u5386\u53f2\u51c6\u70b9\u7387-\\t\u9910\u98df\u65e0\\t\u6c11\u822a\u53d1\u5c55\u57fa\u91d1+\u71c3\u6cb9\u00a550 + \u00a50\\t\u00a5511\u8d77", "entities_data": {"to_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "from_terminal_building": "T3", "to_terminal_building": "T1", "aircraft": "767(\u5927)", "from_airport": "\u8427\u5c71\u56fd\u9645\u673a\u573a", "airline": "\u6d77\u5357\u822a\u7a7a", "to_time": "22", "flight": "HU7178", "from_time": "20", "ticket_price": "\uffe5511"}}
+
+{"entities": ["from_date", "from_time\uff0cpassenger"], "entities1": ["ticket_book_type"], "intent": ["flight_book"], "usersay": "\u4eca\u665a8:20\u7684\uff0c\u5e2e\u6211\u8ba2\u4e00\u4e0b\uff0c\u8c22\u8c22\uff01", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u665a", "from_time": "08"}}
+
+{"entities1": ["ticket_no"], "intent": ["thanks"], "usersay": "\u597d\u7684\u591a\u8c22\uff01"}
+
+{"entities": ["to_place", "from_date", "from_time_period", "from_time", "filght", "to_airport\uff0cpassenger", "person", "map_sort", "venue_accomodation_title", "venue_accomodation"], "intent": ["flight_book", "hotel_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e0b\u5230\u4e0a\u6d77\u7684\u673a\u7968\uff0c\u8c22\u8c22\uff012\u670822\u65e5\uff0c\u5468\u4e00\u65e9\u4e0a 8:00 MU5102 \u5230\u4e0a\u6d77\u8679\u68652\u670823\u65e5\uff0c\u5468\u4e8c\u4e0b\u5348\u4e09\u70b9\u5de6\u53f3\u56de\u6765\u7684\u98de\u673a\uff08\u8679\u6865\uff09\u5728\u9646\u5bb6\u5634\u9644\u8fd1\u4f4f\u4e00\u665a\uff0c\u53d1\u7684\u8fd9\u4e2a\u53c2\u8003\uff1a\u6211\u4ece\u53bb\u54ea\u513f\u65c5\u884cApp\u4e2d\u7ed9\u4f60\u5206\u4eab\u83ab\u6cf0\u8fde\u9501\u9152\u5e97\u4e0a\u6d77\u9646\u5bb6\u5634\u5546\u57ce\u8def\u5e97\uff0c\u4f4d\u4e8e\u6d66\u4e1c\u65b0\u533a\u5546\u57ce\u8def365\u53f7\uff0c\u8054\u7cfb\u7535\u8bdd021-51156111\uff0c\u4f60\u4e5f\u6765\u770b\u770b\u5427\uff01http://d.qunar.com/h_ly-t", "entities_data": {"passenger": "\u6211", "flight": "MU5102", "venue_accomodation_title": "\u83ab\u6cf0\u8fde\u9501\u9152\u5e97", "to_airport": "\u4e0a\u6d77\u8679\u6865person", "map_sort": "\u9646\u5bb6\u5634", "from_time_period": "\u65e9\u4e0a", "from_date": "\u5468\u4e00", "to_place": "\u4e0a\u6d77", "venue_accomodation": "\u4e0a\u6d77\u9646\u5bb6\u5634\u5546\u57ce\u8def\u5e97\uff0c\u4f4d\u4e8e\u6d66\u4e1c\u65b0\u533a\u5546\u57ce\u8def365\u53f7", "from_time": "8"}}
+
+{"entities": ["person_amount", "room_type "], "entities1": ["room_amount"], "intent": ["hotel_book"], "usersay": "\u4e00\u4e2a\u4eba\u3001\u5927\u5e8a\u623f\u3001\u4e0d\u7528\u542b\u65e9\u9910", "entities_data": {"person_amount": "\u4e00\u4e2a\u4eba", "room_type": "\u5927\u5e8a\u623f"}}
+
+{"entities": ["from_date", "from_place", "to_place"], "entities1": ["room_facility"], "intent": ["flight_book"], "usersay": "23\u53f7\u4e0a\u6d77\u5230\u5317\u4eac\u7684\u673a\u7968\u5b9a\u4e00\u4e0b\u5457", "entities_data": {"from_date": "23\u53f7", "from_place": "\u4e0a\u6d77,to_place"}}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place"], "entities1": ["venue_facility"], "intent": ["flight_book"], "usersay": "2\u670823\u65e5\uff0c\u5468\u4e8c\u4e0b\u5348\u4e09\u70b9\u5de6\u53f3\u56de\u6765\u7684\u98de\u673a\uff08\u8679\u6865\uff09 \u4e0a\u6d77-\u5317\u4eac"}
+
+{"entities1": ["venue_accomodation"], "intent": ["ok"], "usersay": "\u6536\u5230"}
+
+{"entities": ["from_date", "from_time", "from_place", "to_place", "airline", "flight", "passenger"], "entities1": ["star"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4eca\u5929\u4e0b\u5348\u4e09\u70b9 \u4e0a\u6d77\u5230\u5317\u4eac\u7684\u673a\u7968 \u4e1c\u822aMU5115 \uff0c\u8c22\u8c22\uff01", "entities_data": {"passenger": "\u6211", "flight": "MU5115", "from_place": "\u4e0a\u6d77", "from_date": "\u4eca\u5929", "airline": "\u4e1c\u822a", "to_place": "\u5317\u4eac", "from_time": "\u4e0b\u5348\u4e09\u70b9"}}
+
+{"entities": ["passenger"], "entities1": ["person_amount"], "intent": ["flight_book"], "usersay": "\u5c31\u6211\u81ea\u5df1", "entities_data": {"passenger": "\u6211"}}
+
+{"entities1": ["checkout_date"], "intent": ["thanks"], "usersay": "\u597d\u7684\u8c22\u8c22"}
+
+{"entities": ["from_date", "from_place", "to_place"], "entities1": ["checkin_time"], "intent": ["flight_book"], "usersay": "4\u67086\u65e5\u5317\u4eac\u5230\u4e0a\u6d77\u7684\u673a\u7968\u5b9a\u4e00\u4e0b\u5427", "entities_data": {"from_date": "4\u6708", "from_place": "\u5317\u4eac", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["from_time"], "entities1": ["checkin_time_period"], "intent": ["flight_book"], "usersay": "\u90fd\u53ef\u4ee5", "entities_data": {"any": "\u90fd\u53ef\u4ee5"}}
+
+{"entities1": ["accommodation_fee"], "intent": ["yes"], "usersay": "ok"}
+
+{"entities1": ["hotel_tel "], "intent": ["ok"], "usersay": "\u6536\u5230"}
+
+{"entities_data": {"from_date": "4\u670819\u65e5", "to_place": "\u4e0a\u4ea4\u6240"}, "intents": ["flight_book", "train_book"], "entities": ["from_date", " to_place"], "entities1": ["room_price"], "intent": ["ticket_book"], "usersay": "4\u670819\u65e5\u4e0a\u4ea4\u6240\u51fa\u5dee\uff0c\u5b9a\u4e0b\u7968\u5427"}
+
+{"intent": ["yes"], "usersay": "\u662f\u7684"}
+
+{"entities": ["map_sort"], "intent": ["flight_book", "hotel_book"], "usersay": "\u8fd8\u6709\u4e0a\u4ea4\u6240\u9644\u8fd1\u7684\u9152\u5e97\u4e5f\u5b9a\u4e00\u4e0b\u5427", "entities_data": {"map_sort": "\u4e0a\u4ea4\u6240\u9644\u8fd1\u7684"}}
+
+{"entities": ["person", "person_amount", "checkin_date", "day_mount", "room_type "], "intent": ["hotel_book"], "usersay": "\u6211\u81ea\u5df1\uff0c4\u670819\u65e5\u4e00\u665a\uff0c\u666e\u901a\u5927\u5e8a\u623f\u5c31\u884c", "entities_data": {"checkin_date": "4\u670819\u65e5", "person": "\u6211\u81ea\u5df1", "person_amount": "\uff08\u6211\u81ea\u5df1\uff091", "room_type": "\u666e\u901a\u5927\u5e8a\u623f", "day_mount": "\u4e00\u665a"}}
+
+{"entities": ["from_time_period", "passenger"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e0b\u4e0b\u5348\u7684\u673a\u7968\u5427", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211"}}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u4eca\u59294\u70b9\u5de6\u53f3\u7684\u5427   \u4e0a\u6d77\u5230\u5317\u4eac", "entities_data": {"from_time_period": "4\u70b9\u5de6\u53f3", "from_date": "\u4eca\u5929", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "from_time", "airline", "flight", "aircraft", "from_airport", "to_airport", "from_terminal_building", "to_terminal_building", "to_time"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u8fd9\u4e2a\u822a\u73ed\u5427\uff08\u4eca\u665a8\uff1a30\uff09\uff0c\u8c22\u8c22\uff01\u4e2d\u56fd\u56fd\u822aCA1589\u6ce2\u97f3777-300ER(\u5927\u578b)20:30\u9996\u90fd\u56fd\u9645\u673a\u573aT322:40\u8679\u6865\u56fd\u9645\u673a\u573aT2", "entities_data": {"passenger": "\u6211", "flight": "CA1589", "to_airport": "\u8679\u6865\u56fd\u9645\u673a\u573a", "to_terminal_building": "T2", "aircraft": "\u6ce2\u97f3777-300ER(\u5927\u578b)", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e2d\u56fd\u56fd\u822a", "to_time": "22", "from_terminal_building": "T3", "from_time": "\u4eca\u665a8\uff1a30"}}
+
+{"entities": ["from_time", "airline", "flight", "aircraft", "from_airport", "to_airport", "from_terminal_building", "to_terminal_building", "to_time"], "intent": ["flight_book"], "usersay": "\u4e1c\u65b9\u822a\u7a7aMU5126\u6ce2\u97f3 767-300/300ER(\u5927\u578b)20:00\u9996\u90fd\u56fd\u9645\u673a\u573aT222:10\u8679\u6865\u56fd\u9645\u673a\u573aT2  \u8fd9\u73ed\u5462", "entities_data": {"to_airport": "\u8679\u6865\u56fd\u9645\u673a\u573a", "flight": "MU5126", "to_terminal_building": "T2", "aircraft": "\u6ce2\u97f3 767-300/300ER(\u5927\u578b)", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e1c\u65b9\u822a\u7a7a", "to_time": "22", "from_terminal_building": "T2", "from_time": "20"}}
+
+{"entities": ["from_time", "airline", "flight", "aircraft", "from_airport", "to_airport", "from_terminal_building", "to_terminal_building", "to_time"], "intent": ["flight_book"], "usersay": "\u90a3\u4e2a\u662f\u6d66\u4e1c\u7684\uff0c\u8fd9\u4e2a\u5427\uff1a\u4e1c\u65b9\u822a\u7a7aMU5128\u7a7a\u4e2d\u5ba2\u8f66 A330-300(\u5927\u578b)20:55\u9996\u90fd\u56fd\u9645\u673a\u573aT223:15\u8679\u6865\u56fd\u9645\u673a\u573aT2", "entities_data": {"to_airport": "\u8679\u6865\u56fd\u9645\u673a\u573a", "flight": "MU5128", "to_terminal_building": "T2", "aircraft": "\u7a7a\u4e2d\u5ba2\u8f66 A330-300(\u5927\u578b)", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e1c\u65b9\u822a\u7a7a", "to_time": "23", "from_terminal_building": "T2", "from_time": "20"}}
+
+{"entities": ["airline", "passenger"], "intent": ["flight_book"], "usersay": "\u90a3\u4f60\u5e2e\u6211\u5b9a\u4e1c\u822a\u7684\u5427", "entities_data": {"passenger": "\u6211", "airline": "\u4e1c\u822a"}}
+
+{"intent": ["thanks"], "usersay": "\u597d\u7684\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", "airline", "flight", "to_time", "from_time", "from_terminal_building", "to_terminal_building", "from_airport", "to_airport"], "intents": ["flight_book", "hotel_book"], "intent": ["ticket_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u5b9a\u4e0b\u660e\u5929\u4e2d\u5348\uff087\u670831\u65e5\uff09\uff0c\u5317\u4eac\u5230\u4e0a\u6d77\u7684\u673a\u7968\uff0c\u4e0a\u4ea4\u6240\u9644\u8fd1\u7684\u5bbe\u9986\uff08\u5148\u8ba2\u4e00\u665a\uff09\uff0c\u8c22\u8c22\uff01\u4e1c\u65b9\u822a\u7a7aMU5116\u7a7a\u4e2d\u5ba2\u8f66 A330-300(\u5927\u578b)15:00\u9996\u90fd\u56fd\u9645\u673a\u573aT217:10\u8679\u6865\u56fd\u9645\u673a\u573aT2", "entities_data": {"passenger": "\u6211", "flight": "MU5116", "from_place": "\u5317\u4eac", "to_airport": "\u8679\u6865\u56fd\u9645\u673a\u573a", "to_terminal_building": "T2", "from_time_period": "\u660e\u5929\u4e2d\u5348", "from_date": "7\u670831\u65e5", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e1c\u65b9\u822a\u7a7a", "to_time": "17", "to_place": "\u4e0a\u6d77", "from_terminal_building": "T2", "from_time": "15"}}
+
+{"intent": ["yes"], "usersay": "\u597d\u7684"}
+
+{"intent": ["thanks"], "usersay": "\u6536\u5230 \u8c22\u8c22"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u5fd9\u8ba2\u4e2a\u673a\u7968\uff0c\u660e\u5929\u4e0b\u5348\u4ece\u5357\u660c\u56de\u5357\u4eac\u7684", "entities_data": {"from_time_period": "\u4e0b\u5348", "from_date": "\u660e\u5929", "from_place": "\u5357\u660c", "to_place": "\u5357\u4eac"}}
+
+{"entities": ["passenger", "from_date"], "intent": ["flight_book"], "usersay": "\u8fd8\u6709\u67d0\u67d0\u67d0\u7684\uff0c8\u670814\u53f7", "entities_data": {"passenger": "['\u6211'", "from_date": "8\u670814\u53f7"}}
+
+{"entities": ["from_time_period"], "intent": ["flight_book"], "usersay": "\u4e24\u70b9\u591a\u90a3\u4e2a", "entities_data": {"from_time_period": "\u4e24\u70b9\u591a"}}
+
+{"intent": ["thanks"], "usersay": "\u6536\u5230\u8c22\u5566"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place", ""], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u5fd9\u5b9a\u4e2a\u5468\u4e94\u65e9\u4e0a\u53bb\u5357\u660c\u7684\u673a\u7968\uff0c\u5468\u4e94\u53bb\u5357\u660c\u4e0b\u5730\u5e02\u57f9\u8bad\uff0c\u706b\u8f66\u7968\u90fd\u53ea\u5269\u4e00\u7b49\u5ea7\u548c\u7279\u7b49\u5ea7\u4e86\uff0c\u592a\u8d35\u4e86", "entities_data": {"from_time_period": "\u65e9\u4e0a", "passenger": "\u6211", "from_date": "\u5468\u4e94", "to_place": "\u5357\u660c"}}
+
+{"intent": ["none"], "usersay": "\t620"}
+
+{"intent": ["none"], "usersay": "\t\u4e00\u7b49\u5ea7"}
+
+{"intent": ["none"], "usersay": "\u673a\u7968\u90fd\u5dee\u4e0d\u591a"}
+
+{"intent": ["none"], "usersay": "\u98de\u673a\u5427\uff0c\u706b\u8f66\u5f974\u4e2a\u591a\u5c0f\u65f6"}
+
+{"intent": ["yes"], "usersay": "\t\u597d"}
+
+{"intent": ["ok"], "usersay": "\u6536\u5230"}
+
+{"entities": ["from_date", "to_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\u5728\u4e0d\uff0c\u5e2e\u5fd9\u8ba2\u4e2a\u5468\u4e09\u4e00\u65e9\u53bb\u5357\u660c\u7684\u7968", "entities_data": {"from_time_period": "\u4e00\u65e9", "from_date": "\u5468\u4e09", "to_place": "\u5357\u660c"}}
+
+{"entities": ["from_place"], "intent": ["flight_book"], "usersay": "\t\u5357\u4eac", "entities_data": {"from_place": "\u5357\u4eac"}}
+
+{"entities": ["to_place"], "intent": ["flight_book"], "usersay": "\t\u53bb\u6c5f\u897f\u8054\u901a", "entities_data": {"to_place": "\u6c5f\u897f\uff08\u5357\u660c\uff09"}}
+
+{"intent": ["yes"], "usersay": "\t\u597d\u5427"}
+
+{"entities": ["to_place", "from_date"], "intent": ["ticket_book", "hotel_book"], "usersay": "\u8ba2\u7968\u548c\u9152\u5e97\uff0c\u4eca\u5929\u51fa\u5dee\u53bb\u4e2d\u56fd\u519c\u4e1a\u94f6\u884c\u5c71\u4e1c\u7701\u5206\u884c\u79d1\u6280\u4e0e\u4ea7\u54c1\u7ba1\u7406\u90e8\u4e2d\u56fd\u00b7\u6d4e\u5357 \u00a0\u7ecf\u4e03\u8def168\u53f7\uff08250001\uff09\u00a0", "entities_data": {"from_date": "\u4eca\u5929", "to_place": "\u6d4e\u5357"}}
+
+{"entities": ["to_place"], "intent": ["ticket_book", "hotel_book"], "usersay": "\u8bf4\u662f\u5230\u6d4e\u5357\u897f\u8fd1", "entities_data": {"to_place": "\u6d4e\u5357\u897f"}}
+
+{"entities": ["person_amount", "checkin_date", "day_amount", "room_type "], "intent": ["hotel_book"], "usersay": "\u4e00\u4e2a\u4eba \u660e\u5929\u4e00\u665a", "entities_data": {"checkin_date": "\u660e\u5929", "day_amount": "\u4e00\u665a", "person_amount": "\u4e00\u4e2a\u4eba"}}
+
+{"entities": ["map_sort"], "intent": ["hotel_book"], "usersay": "\u5c31\u79bb\u897f\u7ad9\u8fd1\u70b9\u5c31\u884c\uff0c\u522b\u7684\u6ca1\u4ec0\u4e48\u4e86\u3002", "entities_data": {"map_sort": "\u79bb\u897f\u7ad9\u8fd1\u70b9"}}
+
+{"entities": ["to_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u8ba2\u673a\u7968\uff0c8\u53f7\u4e4b\u524d\u4ece\u4e4c\u9c81\u6728\u9f50\u56de\u5317\u4eac\uff0c\u5e2e\u5fd9\u770b\u4e00\u4e0b\u5427", "entities_data": {"to_date": "8\u53f7", "from_place": "\u4e4c\u9c81\u6728\u9f50", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "idcard_no"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0*****", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"entities": ["from_time_period", "passenger"], "intent": ["flight_book"], "usersay": "\u4eb2\u7231\u7684\u80fd\u7ed9\u6211\u8ba2\u4e0b\u5348\u7684\u4e48\uff1f", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211"}}
+
+{"intent": ["thanks"], "usersay": "\u8c22\u8c22\u5566"}
+
+{"entities": ["from_date", "from_time_period", "to_place", "passenger"], "intent": ["flight_book"], "usersay": "\u80fd\u5e2e\u6211\u5b9a\u4e00\u4e0b\u660e\u5929\u4e0b\u5348\u56de\u4e4c\u9c81\u6728\u9f50\u7684\u673a\u7968\u4e48", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "to_place": "\u4e4c\u9c81\u6728\u9f50"}}
+
+{"entities": ["to_date", "ticket_type", "passenger"], "intent": ["ticket_book"], "usersay": "16\u65e5\u6765\u4eac\uff0c\u9700\u8981\u4f60\u5e2e\u6211\u5b9a\u4e00\u4e0b\u7968\u5f80\u8fd4\u7684\u7968", "entities_data": {"ticket_type": "\u5f80\u8fd4", "passenger": "\u6211", "to_date": "16\u65e5"}}
+
+{"entities": ["to_date", "from_date"], "intent": ["ticket_book"], "usersay": "16\u65e5\u51fa\u53d1  18\u65e5\u8fd4\u56de", "entities_data": {"from_date": "16\u65e5", "to_date": "18\u65e5"}}
+
+{"entities": ["from_place", "to_place", "from_date", "from_time_period"], "intent": ["flight_book"], "usersay": "\u77f3\u5bb6\u5e84\u5230\u5e7f\u5dde22\u65e5\u7684\u822a\u73ed\uff0c\u8ba2\u4e86\u4e48\uff1f\u5e2e\u5b9a\u4e2d\u5348\u7684\uff0c\u8c22\u8c22", "entities_data": {"from_time_period": "\u4e2d\u5348", "from_date": "22\u65e5", "from_place": "\u77f3\u5bb6\u5e84", "to_place": "\u5e7f\u5dde"}}
+
+{"entities": ["idcard_no", "passenger"], "intent": ["flight_book"], "usersay": "\t\t*****\u67d0\u67d0\u67d0", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["from_place", "to_place"], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u8ba2\u8fd4\u7a0b\u7684\u673a\u7968\u5427 ,\u4ece\u5e7f\u5dde\u5230\u77f3\u5bb6\u5e84", "entities_data": {"from_place": "\u5e7f\u5dde", "to_place": "\u77f3\u5bb6\u5e84"}}
+
+{"entities": ["from_date", "from_time_period"], "intent": ["flight_book"], "usersay": "31\u65e5\u4e2d\u534812\u70b9\u5de6\u53f3\u7684", "entities_data": {"from_time_period": "\u4e2d\u534812\u70b9\u5de6\u53f3", "passenger": "\u6211", "from_date": "31\u65e5", "to_place": "\u77f3\u5bb6\u5e84"}}
+
+{"entities": ["passenger", "from_date", "to_place"], "intent": ["flight_book"], "usersay": "\u6211\u548c\u67d0\u67d0\u67d0\u3001\u67d0\u67d0\u67d0\uff0c9\u670822\u65e5\u53bb\u957f\u6625\u51fa\u5dee", "entities_data": {"passenger": "['\u6211'", "from_date": "9\u670822\u65e5", "'\u67d0\u67d0\u67d0'": "", "to_place": "\u957f\u6625"}}
+
+{"entities": ["from_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\u5317\u4eac\uff0c\u6700\u597d\u4e0b\u5348\u51fa\u53d1", "entities_data": {"from_place": "\u5317\u4eac"}}
+
+{"entities": ["to_place", "from_date"], "intent": ["flight_book"], "usersay": "23\u65e5\u8fd4\u56de\u5317\u4eac", "entities_data": {"from_date": "23\u65e5", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["map_sort", "room_type "], "intent": ["hotel_book"], "usersay": "\t\u957f\u6625\u4e1c\u5357\u6e56\u5927\u8def1817\u53f7\uff0c\u5728\u8fd9\u9644\u8fd1\u7ed9\u6211\u8ba2\u4e00\u95f4\u6807\u95f4", "entities_data": {"map_sort": "\u957f\u6625\u4e1c\u5357\u6e56\u5927\u8def1817\u53f7\u9644\u8fd1", "room_type": "\u6807\u95f4"}}
+
+{"entities": ["checkin_date", "day_amount "], "intent": ["hotel_book"], "usersay": "\t9\u670822\u65e5\u4e00\u665a\u5c31\u597d\u3002", "entities_data": {"checkin_date": "9\u670822\u65e5", "day_amount": "1\u665a "}}
+
+{"entities": ["from_time_period"], "intent": ["flight_book"], "usersay": "\t\u4e0a\u5348\u90a3\u4e2a\u5427\uff01", "entities_data": {"from_time_period": "\u4e0a\u5348"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", " from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book", "hotel_book"], "usersay": "\u5e2e\u6211\u5b9a\u660e\u4e0a\u5348\u6df1\u5733\u53bb\u4e0a\u6d77\u7684\u673a\u7968\u5427\uff01\u540c\u5b9a\u67d0\u67d0\u67d0\u660e\u4e0a\u5348\u6df1\u5733\u56de\u5317\u4eac\u7684\u7968\u5427\uff01\u9152\u5e97\u4e5f\u5b9a\u540c\u6837\u7684\u5427", "entities_data": {"from_time_period": "\u4e0a\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u6df1\u5733", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_date", "from_time_period", "to_place", "passenger"], "intent": ["flight_book"], "usersay": "\u9a6c\u4e0a\u7ed9\u6211\u6539\u6210\u4eca\u4e0b\u5348\u665a\u4e0a\u98de\u4e0a\u6d77\u8679\u6865\u673a\u573a\u7684\u5427\uff01\u6025\uff01", "entities_data": {"from_time_period": "\u4e0b\u5348\u665a\u4e0a", "passenger": "\u6211", "from_date": "\u4eca\u5929", "to_place": "\u4e0a\u6d77\u8679\u6865\u673a\u573a"}}
+
+{"entities": ["to_place", "to_time_period"], "intent": ["flight_book"], "usersay": "\u665a\u4e0a\u5230\u4e0a\u6d77\u5c31\u884c", "entities_data": {"to_time_period": "\u665a\u4e0a", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["venue_accomodation_title"], "intent": ["hotel_book"], "usersay": "\u9152\u5e97\u683c\u6797\u8c6a\u6cf0\u7684\u5c31\u884c\uff0c", "entities_data": {"venue_accomodation_title": "\u683c\u6797\u8c6a\u6cf0"}}
+
+{"entities": ["person", "person_amount", "room_type", "checkin_date", "day_mount"], "intent": ["hotel_book"], "usersay": "\t\u6211\u4e00\u4e2a\u4eba\uff0c\u5b9a\u4e2a\u5546\u52a1\u5927\u5e8a\u623f\u5427\uff0c11\u670825\u65e5\u4e24\u5929\u665a\u4e0a\u3002", "entities_data": {"checkin_date": "11\u670825\u65e5", "person": "\u6211", "person_amount": "\u4e00\u4e2a\u4eba", "room_type": "\u5546\u52a1\u5927\u5e8a\u623f", "day_mount": "\u4e24\u5929\u665a\u4e0a"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u548c\u67d0\u67d0\u67d0\u5b9a\u660e\u4e0a\u5348\u4ece\u54c8\u56de\u4eac\u7684\u673a\u7968\u5427", "entities_data": {"from_time_period": "\u4e0a\u5348", "passenger": "['\u6211'", "from_date": "\u660e\u5929", "from_place": "\u54c8", "to_place": "\u4eac"}}
+
+{"entities": ["from_place", "from_time"], "intent": ["flight_book"], "usersay": "\u5927\u65b0\u534e\u768411.50\u90a3\u73ed\u5c31\u884c\uff01", "entities_data": {"from_time": "11", "from_place": "\u5927\u65b0\u534e"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u660e\u5929\u4e0b\u5348\u6216\u665a\u4e0a  \u5230\u6df1\u5733\u7684\u673a\u7968\uff01  \u4e0b\u5348\u7a0d\u665a\u70b9\u4e5f\u53ef\uff01", "entities_data": {"from_time_period": "\u4e0b\u5348\u6216\u665a\u4e0a", "passenger": "w\u6211", "from_date": " \u660e\u5929", "to_place": "\u6df1\u5733"}}
+
+{"intent": ["yes"], "usersay": "\u5230\u6df1\u5733\u5f974\u4e2a\u5c0f\u65f6\u5427\uff0c \u53ef\u4ee5\uff01"}
+
+{"intent": ["yes"], "usersay": "\u597d\u7684"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u665a\u4e0a\u8fd8\u6709\u4ece\u6df1\u5733\u56de\u4eac\u7684\u7684\u822a\u73ed\u5417\uff1f", "entities_data": {"from_time_period": "\u665a\u4e0a", "from_date": "\u4eca\u5929", "from_place": "\u6df1\u5733", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["map_sort", "person_amount", "checkin_date", "day_amount "], "intent": ["hotel_book"], "usersay": "\t\u5728\u76ee\u7684\u5730\u8ba2\u9152\u5e973\u4e2a\u4eba\u7684\uff0c22\u53f7\u4e00\u665a", "entities_data": {"checkin_date": "22\u53f7", "map_sort": "\u76ee\u7684\u5730", "person_amount": "3\u4e2a\u4eba", "day_amount": "\u4e00\u665a"}}
+
+{"entities": ["map_sort "], "intent": ["hotel_book"], "usersay": "\t\u79bb\u529e\u516c\u5730\u70b9\u7a0d\u8fd1\u4e00\u70b9\u6bd4\u8f83\u597d", "entities_data": {"map_sort": "\u79bb\u529e\u516c\u5730\u70b9\u8fd1\u4e00\u70b9"}}
+
+{"intent": ["none"], "usersay": "\t\u6ca1\u6709"}
+
+{"intent": ["none"], "usersay": "\t8\u70b9\u98de\u673a\u521a\u843d\u5730\uff01"}
+
+{"intent": ["thanks"], "usersay": "\u597d\u7684 \u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u3001 \u67d0\u67d0\u67d0\u3001 \u67d0\u67d0\u67d0\u5b9a\u660e\u4e0b\u53482\u70b9\u540e\u56de\u4eac\u7684\u673a\u7968\u5427\uff01\u8c22", "entities_data": {"from_time_period": "\u4e0b\u53482\u70b9\u540e", "passenger": "['\u6211'", "from_date": "\u660e\u5929", "'\u67d0\u67d0\u67d0'": "", "to_place": "\u4eac"}}
+
+{"entities": ["from_place"], "intent": ["flight_book"], "usersay": "\u4e09\u4e9a\u56de\u4eac\uff01", "entities_data": {"from_place": "\u4e09\u4e9a"}}
+
+{"intent": ["yes"], "usersay": "\u53ef"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place\uff0cfrom_place\uff0cflight"], "intent": ["flight_book"], "usersay": " \u5e2e\u6211\u8ba2\u4eca\u59293\u70b9\u540e\u98de\u673a\u5427\uff01MU5115\u5427\uff01\u4e0a\u6d77\u5230\u5317\u4eac\u7684", "entities_data": {"passenger": "\u6211", "flight": "MU5115", "from_place": "\u4e0a\u6d77", "from_time_period": "3\u70b9\u540e", "from_date": "\u4eca\u5929", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place", "from_place"], "intent": ["flight_book"], "usersay": "\u5b9a\u67d0\u67d0\u67d0\u4e0e\u6211\u4eca\u5929\u4e0b\u5348\u4e09\u70b9\u5de6\u53f3\u4ece\u4e0a\u6d77\u56de\u4eac\u7684\uff01", "entities_data": {"from_time_period": "\u4e09\u70b9\u5de6\u53f3", "passenger": "['\u6211'", "from_date": "\u4eca\u5929", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\u6536\u5230"}
+
+{"entities": ["passenger", "to_date", "to_place", "train_type"], "intent": ["train_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e00\u5f20\u660e\u5929\u5230\u4fdd\u5b9a\u7684\u9ad8\u94c1\u7968", "entities_data": {"passenger": "\u6211", "train_type": "\u9ad8\u94c1\u7968", "to_date": "\u660e\u5929", "to_place": "\u4fdd\u5b9a"}}
+
+{"entities": ["idcard_no"], "intent": ["train_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["from_time_period"], "intent": ["train_book"], "usersay": "\t\u5b9a\u4e0b\u53486\u70b9\u5230\u4e03\u70b9\u95f4\u7684\u5427", "entities_data": {"from_time_period": "\u4e0b\u53486\u70b9\u5230\u4e03\u70b9\u95f4"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u4e86"}
+
+{"entities": ["passenger", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u9102\u5c14\u591a\u65af\u5230\u5929\u6d25\u7684\u673a\u7968\u5427", "entities_data": {"passenger": "\u6211", "from_place": "\u9102\u5c14\u591a\u65af", "to_place": "\u5929\u6d25"}}
+
+{"entities": ["from_date"], "intent": ["flight_book"], "usersay": "\t\u4eca\u5929\u7684", "entities_data": {}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u4e86\u554a"}
+
+{"entities": ["passenger", "from_time", "to_place", "to_airport"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f2019:15\u51fa\u53d1\uff0c\u5230\u6b66\u6c49\u5929\u6cb3\u56fd\u9645\u673a\u573a\u7684\u98de\u673a\u7968\uff0c", "entities_data": {"passenger": "\u6211", "from_time": "19", "to_airport": "\u6b66\u6c49\u5929\u6cb3\u56fd\u9645\u673a\u573a", "to_place": "\u6b66\u6c49"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u4e86"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u4ece\u5317\u4eac\u98de\u8862\u5dde\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u8862\u5dde"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5"}
+
+{"intent": ["thanks"], "usersay": "\u597d\u7684\u591a\u8c22\uff01"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u4eca\u665a\u4ece\u8862\u5dde\u56de\u5317\u4eac\u7684\u673a\u7968", "entities_data": {"from_time_period": "\u4eca\u665a", "passenger": "\u6211", "from_date": "\u4eca", "from_place": "\u8862\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5\u7684"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u4e86"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u4e0b\u5348\u6df1\u5733\u98de\u5317\u4eac\u7684\u673a\u7968", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u6df1\u5733", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e00\u5f20\u4eca\u59296\u70b9\u4ee5\u540e\u957f\u6c99\u98de\u5929\u6d25\u7684\u673a\u7968", "entities_data": {"from_time_period": "6\u70b9\u4ee5\u540e", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u957f\u6c99", "to_place": "\u5929\u6d25"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5\u7684"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22\u4e86"}
+
+{"entities": ["passenger", "from_date", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u5468\u65e5\u98de\u6986\u6797\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date\u5468\u65e5": "", "to_place": "\u6986\u6797"}}
+
+{"entities": ["from_place"], "intent": ["flight_book"], "usersay": "\t\u5929\u6d25\u51fa\u53d1", "entities_data": {"from_place": "\u6986\u6797"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5\u7684"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u8ba2\u4e00\u5f20\u9102\u5c14\u591a\u65af\u5230\u5317\u4eac\u7684\u673a\u7968\uff0c\u4eca\u5929\u7684", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u9102\u5c14\u591a\u65af", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_place", "to_place"], "intent": ["flight_book"], "usersay": "\t\u6216\u8005\u6986\u6797\u5230\u5317\u4eac\u7684", "entities_data": {"from_place": "\\\u6986\u6797t to_place"}}
+
+{"entities": ["from_time_period"], "intent": ["flight_book"], "usersay": "\u4e0d\u8981\u592a\u665a\u4e86\uff0c6\u30017\u70b9\u98de\u5c31\u53ef", "entities_data": {"from_time_period": "6\u30017\u70b9"}}
+
+{"entities": ["from_place"], "intent": ["flight_book"], "usersay": "\t\u786e\u5b9a\u662f\u6986\u6797\u8d77\u98de\u5427\uff1f", "entities_data": {"from_place": "\u6986\u6797"}}
+
+{"intent": ["yes"], "usersay": "\t\u597d"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u540e\u5929\u6df1\u5733\u5230\u5929\u6d25 \u5e2e\u6211\u8ba2\u7684\u673a\u7968\u8ba2\u597d\u4e86\u6ca1\uff1f", "entities_data": {"passenger": "\u6211", "from_date": "\u540e\u5929", "from_place": "\u6df1\u5733", "to_place": "\u5929\u6d25"}}
+
+{"entities": ["idcard_no"], "intent": ["flight_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["none"], "usersay": "\u7968\u8ba2\u597d\u4e86\u4e48\uff0c\u6211\u597d\u77e5\u9053\u65f6\u95f4\uff0c\u534f\u8c03\u4e0a\u5348\u7684\u4f1a\u8bae"}
+
+{"intent": ["none"], "usersay": "\t\u51e0\u70b9\u8d77\u98de\u554a"}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_place", "to_place", "airline", "flight"], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u8ba2\u4e00\u5f20\u5230\u4e0a\u6d77\u7684\u673a\u7968\uff0c\u4e1c\u822amu5188", "entities_data": {"passenger": "\u6211", "flight": "mu5188", "airline": "\u4e1c\u822a", "from_place": "\u5317\u4eac", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["from_date", "from_time_period"], "intent": ["flight_book"], "usersay": "\t\t\u4eca\u5929\u4e0b\u5348\u7684", "entities_data": {"from_time_period": "\u4e0b\u5348", "from_date": "\u4eca\u5929"}}
+
+{"intent": ["none"], "usersay": "\t\u4eca\u5929\u7684\u554a"}
+
+{"entities": ["to_station"], "intent": ["train_book"], "usersay": "\t\u5230\u8679\u6865\u7ad9", "entities_data": {"to_station": "\u8679\u6865\u7ad9"}}
+
+{"entities": ["train_no"], "intent": ["train_book"], "usersay": "\u5df2\u7ecf\u6ca1\u4e8c\u7b49\u5ea7\u4e86\uff0c\u4f60\u53ef\u8ba2G145", "entities_data": {"train_no": "G145"}}
+
+{"entities": ["passenger", "from_date", "to_place"], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u56de\u5317\u4eac\u7684\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["train_no"], "intent": ["train_book"], "usersay": "\t\u9ad8\u94c1\u7684\u8bddg18", "entities_data": {"train_no": "g18"}}
+
+{"entities": ["from_time_period"], "intent": ["train_book"], "usersay": "\t\u4e0b\u5348\u4e09\u70b9", "entities_data": {"from_time_period": "\u4e0b\u5348\u4e09\u70b9"}}
+
+{"entities": ["train_no"], "intent": ["train_book"], "usersay": "\tg18\u5427", "entities_data": {"train_no": "g18"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u5317\u4eac\u98de\u5e7f\u5dde\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u5e7f\u5dde"}}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\u66ff\u6211\u8ba2\u4e00\u5f20\u4eca\u5929\u5e7f\u5dde\u98de\u5317\u4eac\u7684\u673a\u7968\uff0c\u4e0b\u53483\u70b9\u949f\u7684", "entities_data": {"from_time_period": "\u4e0b\u53483\u70b9\u949f", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_time_period"], "intent": ["flight_book"], "usersay": "\t\u5c31\u4e09\u70b9\u56db\u70b9\u4e4b\u95f4", "entities_data": {"from_time_period": "\u4e09\u70b9\u56db\u70b9\u4e4b\u95f4"}}
+
+{"entities": ["person "], "intent": ["hotel_book"], "usersay": "\t\u67d0\u67d0\u67d0 \u548c\u6211\u7684\u9152\u5e97\u8ba2\u4e86\u5417\uff1f", "entities_data": {"person": "['\u67d0\u67d0\u67d0'"}}
+
+{"entities": ["checkin_date", "day_amount", "room_type", "room_amount "], "intent": ["hotel_book"], "usersay": "\t\u6211\u4eec8\u67082\u65e5\u5165\u4f4f\uff0c\u4f4f\u4e00\u665a\u4e0a\uff0c\u5b9a\u4e24\u4e2a\u5927\u5e8a\u623f\u5427", "entities_data": {"checkin_date": "8\u67082\u65e5", "day_amount": "\u4e00\u665a\u4e0a", "room_type": "\u5927\u5e8a\u623f", "room_amount": "\u4e24\u4e2a"}}
+
+{"intent": ["ok"], "usersay": "\t\u90a3\u597d\u5427"}
+
+{"intent": ["thanks"], "usersay": "\u8c22\u8c22 "}
+
+{"entities": ["passenger", "to_date", "to_place", "train_type"], "intent": ["ticket_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u5230\u9752\u5c9b\u7684\u9ad8\u94c1\u7968", "entities_data": {"passenger": "\u6211", "train_type": "\u9ad8\u94c1", "to_date": "\u660e\u5929", "to_place": "\u9752\u5c9b"}}
+
+{"entities": ["train_no", " from_time"], "intent": ["ticket_book"], "usersay": "\tG193 14:46", "entities_data": {"train_no": "G193", "from_time": "14"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["from_date", "from_place", "to_place", "train_type", "train_no", "passenger"], "intent": ["ticket_book"], "usersay": "\u4eca\u5929\u4ece\u9752\u5c9b\u56de\u4eac\u7684\u9ad8\u94c1\uff0cg200\uff0c\u67d0\u67d0\u67d0\u548c\u6211", "entities_data": {"passenger": "['\u6211'", "from_place": "\u9752\u5c9b", "train_no": "g200", "train_type": "\u9ad8\u94c1", "from_date": "\u4eca\u5929", "to_place": "\u4eac"}}
+
+{"intent": ["none"], "usersay": "\t\u7ed9\u4ed6\u5b9a\u5427"}
+
+{"intent": ["none"], "usersay": "\t\u90a3\u5b9a\u6211\u7684\u5427"}
+
+{"intent": ["none"], "usersay": "\t\u706b\u8f66\u7968\u5e2e\u6211\u8ba2\u597d\u4e86\u5427"}
+
+{"intent": ["yes"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", "flight", "ticket_price"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u4e0b\u5348\u5317\u4eac\u5230\u4e0a\u6d77\u7684\u673a\u7968\uff0cHU7601,570\u5143", "entities_data": {"passenger": "\u6211", "flight": "HU7601", "from_place": "\u5317\u4eac", "from_time_period": "\u660e\u5929\u4e0b\u5348", "from_date": "\u660e\u5929", "to_place": "\u4e0a\u6d77", "ticket_price": "570\u5143"}}
+
+{"entities": ["from_place", "ticket_book_type"], "intent": ["train_book"], "usersay": "\t\u5176\u5b83\u4eba\u53bb\u4e0a\u6d77\u90fd\u662f\u706b\u8f66\u4e48\uff1f", "entities_data": {"ticket_book_type": "\u706b\u8f66", "from_place": ""}}
+
+{"entities": ["train_no", "from_date"], "intent": ["train_book"], "usersay": "\u90a3\u5e2e\u6211\u8ba2\u9ad8\u94c1G43\u5427\uff0c9\u53f7\u7684", "entities_data": {"from_date": "9\u53f7", "train_no": "G43"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u4e86"}
+
+{"entities": ["passenger", "to_place", "from_time", "to_airport"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\u8981\u6211\u51fa\u5dee\u53bb\u6df1\u5733\uff0c\u98de\u673a\u7968\u80fd\u5e2e\u6211\u5b9a\u5417\uff1f\u4e0b\u5348\u516d\u70b9\u534a\u7684\uff0c\u6df1\u5733\u5b9d\u5b89\u673a\u573a", "entities_data": {"passenger": "\u6211", "from_time": "\u4e0b\u5348\u516d\u70b9\u534a", "to_airport": "\u6df1\u5733\u5b9d\u5b89\u673a\u573a", "to_place": "\u6df1\u5733"}}
+
+{"entities": ["from_date", "from_place"], "intent": ["flight_book"], "usersay": "\t\u4eca\u5929\u4ece\u5317\u4eac\u51fa\u53d1", "entities_data": {"from_date": "\u4eca\u5929", "from_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\u55ef\u5462 "}
+
+{"entities": ["person", "map_sort "], "intent": ["hotel_book"], "usersay": "\u6211\u8981\u5728\u51fa\u5dee\u5730\u70b9\u9644\u8fd1\u5b9a\u4e2a\u9152\u5e97", "entities_data": {"person": "\u6211", "map_sort": "\u51fa\u5dee\u5730\u70b9\u9644\u8fd1\u7684"}}
+
+{"entities": ["checkin_date", "day_amount "], "intent": ["hotel_book"], "usersay": "\t6\u67086\u65e5\uff0c\u4f4f\u4e00\u665a\u5373\u53ef", "entities_data": {"checkin_date": "6\u67086\u65e5", "day_amount": "\u4e00\u665a"}}
+
+{"intent": ["none"], "usersay": "\u6ca1\u6709\u4e86\t"}
+
+{"entities": ["idcard_no", "passenger"], "intent": ["flight_book"], "usersay": "\u8eab\u4efd\u4fe1\u606f\uff1a\t*****\uff0c\u67d0\u67d0\u67d0", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "idcard_no": "******"}}
+
+{"intent": ["ok"], "usersay": "\tok"}
+
+{"entities": ["passenger", "from_date"], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e0b\u56de\u7a0b\u673a\u7968\u3002\u4eca\u5929\u7684\u3002\u4ee5\u4e0b\u4e24\u4e2a\u822a\u73ed\u5747\u53ef\u3002\u8c22\u8c22\u3002", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929"}}
+
+{"entities": ["passenger", "from_date", "from_place", "from_airport", "to_airport", "from_time_period", "airline"], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e0b\u4eca\u5929\u56de\u5317\u4eac\u673a\u7968\u3002\u4e0a\u6d77\u8679\u6865\u673a\u573a-\u300b\u9996\u90fd\u673a\u573a\u3002\u65f6\u95f4\u57285:00-7:00\u5de6\u53f3\u5747\u53ef\u3002\u56fd\u822a\u3001\u4e1c\u822a\u5747\u53ef\u3002\u8c22\u8c22\uff01", "entities_data": {"passenger": "\u6211", "from_place": "\u4e0a\u6d77", "to_airport": "\u9996\u90fd\u673a\u573a", "from_time_period": "5", "from_date": "\u4eca\u5929", "from_airport": "\u4e0a\u6d77\u8679\u6865\u56fd\u9645\u673a\u573a", "airline": "\u56fd\u822a\u3001\u4e1c\u822a"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22\u5566"}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "to_date", "to_time_period", "from_place", "to_place", "to_airport", "time_deadline"], "intent": ["flight_book"], "usersay": "\t\u4eb2\uff0c\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e00\u4e2a\u660e\u5929\u4e0a\u5348\u5317\u4eac\u5230\u4e0a\u6d77\u8679\u6865\u673a\u573a\u7684\u7968\u300212\u70b9\u524d\u5230\uff0c\u4e0b\u53482\uff1a00\u524d\u8d76\u5230\u5ba2\u6237\u5904\u3002", "entities_data": {"passenger": "\u6211", "from_place": "\u5317\u4eac", "to_airport": "\u4e0a\u6d77\u8679\u6865\u673a\u573a", "time_deadline": "12\u70b9\u524d\u5230", "to_time_period": "\u660e\u5929\u4e0a\u5348", "to_date": "\u660e\u5929", "to_place": "\u4e0a\u6d77"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22\uff01"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "from_airport", "to_place"], "intent": ["flight_book"], "usersay": "\t\u4eb2\uff0c\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u4e2d\u5348\u4e0a\u6d77\u8679\u6865\u673a\u573a\u5230\u5317\u4eac\u7684\u673a\u7968\uff0c\u8c22\u8c22\uff01", "entities_data": {"passenger": "\u6211", "from_place": "\u4e0a\u6d77", "from_time_period": "\u4e2d\u5348", "from_date": "\u660e\u5929", "from_airport": "\u4e0a\u6d77\u8679\u6865\u673a\u573a", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22\uff01"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place", "idcard_no"], "intent": ["flight_book"], "usersay": "\u660e\u665a6\u52307\u70b9\u5de6\u53f3\u8d77\u98de\uff0c\u957f\u6c99\u98de\u5317\u4eac\uff0c\u8eab\u4efd\u8bc1*****\u8c22\u8c22", "entities_data": {"from_time_period": "6\u52307\u70b9\u5de6\u53f3", "from_date": "\u660e\u5929", "idcard_no": "*****", "from_place": "\u957f\u6c99", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["flight"], "intent": ["flight_book"], "usersay": "\t\u5e2e\u67d0\u67d0\u67d0\u5b9a\u540c\u4e00\u73ed\uff0c\u8c22\u8c22", "entities_data": {"flight": "MF8174"}}
+
+{"intent": ["ok"], "usersay": "ok \u597d\u7684"}
+
+{"intent": ["flight_book"], "usersay": "\t\u518d\u5e2e\u5fd9\u8ba2\u4e00\u5f20\u98de\u673a\u7968"}
+
+{"entities": ["from_date", "airline", "flight", "from_time", "from_airport", "from_terminal_building", "to_time", "to_airport"], "intent": ["flight_book"], "usersay": "10\u670819\u65e5\u4e1c\u65b9\u822a\u7a7aMU2203 . 15:55\u9996\u90fd\u56fd\u9645\u673a\u573aT2  17:10\u5415\u6881\u5927\u6b66\u673a\u573a", "entities_data": {"to_airport": "\u5415\u6881\u5927\u6b66\u673a\u573a", "from_terminal_building": "T2", "from_date": "10\u670819\u65e5", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e1c\u65b9\u822a\u7a7a", "to_time": "17", "flight": "MU2203", "from_time": "15"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22\u3002"}
+
+{"intent": ["thanks"], "usersay": "\tok,\u8c22\u8c22"}
+
+{"entities": ["from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "11\u670823\u65e5\u7684\u7968\uff0c\u8bf7\u5e2e\u5fd9\u8ba2\u4e00\u4e0b\u3002\u5357\u660c-\u6df1\u5733", "entities_data": {"from_date": "11\u670823\u65e5", "from_place": "\u5357\u660c", "to_place": "\u6df1\u5733"}}
+
+{"entities": ["from_date", "from_place", "to_place", "to_airport"], "intent": ["flight_book"], "usersay": "\u8fd8\u670911\u670825\u65e5 \u6df1\u5733--\u4e0a\u6d77\u8679\u6865", "entities_data": {"to_airport": "\u4e0a\u6d77\u8679\u6865", "from_date": "11\u670825\u65e5", "from_place": "\u6df1\u5733", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["from_date", "from_time_period", "from_place", "from_airport", "to_place", "passenger", "ticket_amount"], "intent": ["flight_book"], "usersay": "\u4ee5\u53ca11\u670827\u53f7\u4e0b\u5348\u516d\u4e03\u70b9\u5de6\u53f3\uff0c\u4e0a\u6d77\u8679\u6865-\u5317\u4eac\uff0c \u8fd9\u5f20\u7968\u7b49\u67d0\u67d0\u67d0\u4e00\u8d77\u8ba2\u540c\u4e00\u73ed\u673a\u3002\u4e00\u5171\u4e09\u5f20\u673a\u7968\uff0c\u8c22\u8c22\u3002", "entities_data": {"passenger": "['\u6211'", "ticket_amount": "3", "from_place": "\u4e0a\u6d77", "from_time_period": "\u4e0b\u5348\u516d\u4e03\u70b9\u5de6\u53f3", "from_date": "11\u670827\u53f7", "from_airport": "\u4e0a\u6d77\u8679\u6865", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\tok"}
+
+{"entities": ["airline", "flight", "aircraft", "from_terminal_building", "from_airport"], "intent": ["flight_book"], "usersay": "\u4e2d\u56fd\u8054\u822a  KN2278 \u673a\u578b73S(\u4e2d)\\t13:00\u5357\u82d1\u673a\u573a", "entities_data": {"from_terminal_building": "t1", "aircraft": "73S(\u4e2d)", "from_airport": "\u5357\u82d1\u673a\u573a", "flight": "KN2278", "airline": "\u4e2d\u56fd\u8054\u822a"}}
+
+{"entities": ["from_date", "passenger"], "intent": ["flight_book"], "usersay": "\u8bf7\u5e2e\u5fd9\u9876\u4e00\u4e0b\u672c\u5468\u4e09\uff0c\u8c22\u8c22\uff0c\u6211\u548c\u67d0\u67d0\u67d0", "entities_data": {"passenger": "['\u6211'", "from_date": "\u672c\u5468\u4e09"}}
+
+{"intent": ["thanks"], "usersay": "\t\u591a\u8c22"}
+
+{"entities": ["from_date", "from_time", "flight", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u5fd9\u9884\u5b9a14\u53f7\u5468\u65e5\u665a\u4e5d\u70b9kn5618\u56de\u4eac\uff0c\u8c22\u8c22", "entities_data": {"from_date": "14\u53f7\u5468\u65e5", "flight": "kn5618", "from_time": "\u4e5d\u70b9", "to_place": "\u4eac"}}
+
+{"entities": ["to_time_period", "to_place", "passenger", "airline", "flight", "aircraft", "from_time", "from_airport", "from_terminal_building", "to_time", "to_airport"], "intent": ["flight_book"], "usersay": "\u8bf7\u5e2e\u5fd9\u9884\u5b9a\u660e\u5929\u4e2d\u5348\u5230\u547c\u548c\u6d69\u7279\u7684\u98de\u673a\uff0c\u6211\u3001\u67d0\u67d0\u67d0\u3001\u67d0\u67d0\u67d0\u4e2d\u56fd\u56fd\u822a CA1211.\u6ce2\u97f3737-800(\u4e2d\u578b) 11:45\u9996\u90fd\u56fd\u9645\u673a\u573aT3  13:25\u767d\u5854\u56fd\u9645\u673a\u573a", "entities_data": {"passenger": "['\u6211'", "flight": "CA1211", "to_airport": "\u767d\u5854\u56fd\u9645\u673a\u573a", "to_time_period": "\u660e\u5929\u4e2d\u5348", "aircraft": "\u6ce2\u97f3737-800(\u4e2d\u578b)", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e2d\u56fd\u56fd\u822a", "to_time": "13", "to_place": "\u547c\u548c\u6d69\u7279", "from_terminal_building": "T3", "from_time": "11", "to_date": "\u660e\u5929"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22"}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place", "airline", "flight", "passenger"], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u65e9\u6668\u4e00\u4e0a\u73ed\u5e2e\u6211\u8ba2\u5468\u4e09\u4e2d\u5348\u4e4c\u5170\u5bdf\u5e03\u5230\u5317\u4eac\u7684\u7968\uff0c\u5168\u5929\u5c31\u8fd9\u4e00\u73ed\u76f4\u822aCA1134\uff0c\u4e14\u6bcf\u5468\u4e00\u4e09\u4e94\u624d\u6709\uff0c\u8bf7\u5c3d\u5feb\uff0c\u8c22\u8c22\u3002", "entities_data": {"passenger": "\u6211", "flight": "CA1134", "from_place": "\u4e4c\u5170\u5bdf\u5e03", "from_time_period": "\u4e2d\u5348", "from_date": "\u5468\u4e09", "airline": "\u76f4\u822a", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place", "from_time_period"], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u4eca\u5929\u665a\u4e0a\u6df1\u5733\u5230\u5317\u4eac\uff0c\u5c3d\u91cf\u8ba2\u665a9\u70b9\u5de6\u53f3\u7684\u5427", "entities_data": {"from_time_period": "\u4e5d\u70b9\u5de6\u53f3", "from_date": "\u4eca\u5929", ",from_time_period": "\u665a\u4e0a", "from_place": "\u6df1\u5733", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", "from_date", "from_place", "to_place", "ticket_type"], "intent": ["flight_book"], "usersay": "\u5728\u516c\u53f8\u5417\uff1f\u5e2e\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u4e0a\u5348\u53bb\u5e7f\u5dde\u7684\u673a\u7968\uff0c\u540e\u5929\u8fd4\u7a0b", "entities_data": {"passenger": "\u6211", "from_place": "\u5e7f\u5dde", "ticket_type": "\u8fd4\u7a0b", "from_time_period": "\u4e0a\u5348", "from_date": "\u540e\u5929", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\u55ef \u597d\u7684"}
+
+{"entities": ["passenger", "to_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e00\u5f20\u4eca\u665a\u4e03\u516b\u70b9\u98de\u5e7f\u5dde\u7684\u673a\u7968\u5427", "entities_data": {"from_time_period": "\u4eca\u665a\u4e03\u516b\u70b9", "passenger": "\u6211", "from_date": "\u4eca", "to_place": "\u5e7f\u5dde"}}
+
+{"intent": ["yes"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u7ed9\u6211\u5b9a\u4eca\u5929\u4e0b\u53482\u70b9\u4e0a\u6d77\u56de\u5317\u4eac\u7684\u98de\u673a\u5427", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place", "passenger"], "intent": ["flight_book"], "usersay": "\u7ed9\u6211\u8ba2\u4eca\u665a7:30-8:00\u4e4b\u95f4\u5317\u4eac\u5230\u5e7f\u5dde\u7684\u673a\u7968", "entities_data": {"from_time_period": "\u4eca\u665a7", "passenger": "\u6211", "from_date": "\u4eca", "from_place": "\u5317\u4eac", "to_place": "\u4e0a\u6d77"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["passenger", "to_date", "to_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u7ed9\u6211\u5b9a\u5f20\u673a\u7968\uff0c\u5468\u65e5\u4e0b\u5348\u4e24\u4e09\u70b9\u5317\u4eac\u5230\u5e7f\u5dde\u5c31\u53ef\u4ee5", "entities_data": {"passenger": "\u6211", "to_place": "\u5e7f\u5dde", "to_date": "\u5468\u65e5", "from_place": "\u5317\u4eac", "to_time_period": "\u4e0b\u5348\u4e24\u4e09\u70b9"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4eca\u5929\u665a\u4e0a7\u70b9\u534a\u5de6\u53f3\u4ece\u5e7f\u5dde\u56de\u5317\u4eac\u7684\u673a\u7968\u5427", "entities_data": {"from_time_period": "\u665a\u4e0a\u4e03\u70b9\u534a\u5de6\u53f3", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_time_period"], "intent": ["flight_book"], "usersay": "\t7\u70b9\u534a\u6216\u80058\u70b9\u7684", "entities_data": {}}
+
+{"intent": ["yes"], "usersay": "\t\u55ef\uff0c\u662f\u7684"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22\uff01"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "from_airport", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u660e\u5929\u665a\u4e0a7\u70b9\u4ee5\u540e\u4ece\u4e0a\u6d77\u8679\u6865\u5230\u5317\u4eac\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_place": "\u4e0a\u6d77", "from_time_period": "\u665a\u4e0a7\u70b9\u4ee5\u540e", "from_date": "\u660e\u5929", "from_airport": "\u4e0a\u6d77\u8679\u6865", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "idcard_no"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0*****", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"entities": ["passenger", "from_date", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e2a\u4e0b\u5468\u4e00\u5230\u5df4\u5f66\u8bfa\u5c14\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u4e0b\u5468\u4e00", "to_place": "\u5df4\u5f66\u8bfa\u5c14"}}
+
+{"entities": ["from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "15\u65e5\u5317\u4eac\u5230\u6df1\u5733\u7684\u673a\u7968", "entities_data": {"from_date": "15\u65e5", "from_place": "\u5317\u4eac", "to_place": "\u6df1\u5733"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place"], "intent": ["flight_book"], "usersay": "\u80fd\u5e2e\u6211\u8ba2\u660e\u5929\u4e0b\u53483\u70b9\u5de6\u53f3\u51fa\u53d1\u5230\u5317\u4eac\u7684\u673a\u7968\u4e48\uff1f", "entities_data": {"from_time_period": "\u4e0b\u53483\u70b9\u5de6\u53f3", "passenger": "\u6211", "from_date": "\u660e\u5929", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_place"], "intent": ["flight_book"], "usersay": "\u4ece\u5e7f\u5dde\u51fa\u53d1\u5440\uff0c\u6211\u73b0\u5728\u5728\u5e7f\u5dde\u7684", "entities_data": {"from_place": "\u5e7f\u5dde"}}
+
+{"entities": ["passenger", "from_date", "to_place"], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u6211\u4eca\u5929\u8fc7\u53bb\u5357\u4eac\u90a3\u8fb9\uff0c\u53bb\u7684\u7968\u5e2e\u6211\u4e70\u4eca\u5929\u7684\uff0c\u8c22\u4e86", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "to_place": "\u5357\u4eac"}}
+
+{"intent": ["none"], "usersay": "\u8ba2\u5b8c\u7968\u9ebb\u70e6\u544a\u8bc9\u6211\u58f0\u5927\u81f4\u65f6\u95f4\uff0c\u6211\u9700\u8981\u63d0\u524d\u56de\u5bb6\u62ff\u70b9\u4e1c\u897f"}
+
+{"intent": ["thanks"], "usersay": "\u597d\u7684\uff0c\u8c22\u4e86"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", "idcard_no"], "intent": ["flight_book"], "usersay": "\t\u67d0\u67d0\u67d0\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e00\u5f20\u5468\u516d5\u70b9\u4ee5\u540e\u7684\u5317\u4eac\u53bb\u5357\u4eac\u7684\u7968\uff0c\u8981\u53bb\u6c5f\u82cf\u7701\u516c\u5b89\u5385\u90e8\u7f72\u6d4b\u8bd5\uff0c\u6211\u8eab\u4efd\u8bc1\u53f7*****", "entities_data": {"passenger": "\u6211", "from_place": "\u5317\u4eac", "from_date": "\u5468\u516d from_time_period", "idcard_no": "*****", "to_place": "\u5357\u4eac", "o_place": "\u6c5f\u82cf\u7701\u516c\u5b89\u5385"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u611f\u8c22"}
+
+{"entities": ["ticket_amount", "from_place", "to_place", "passenger", "from_time_period"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\u9ebb\u70e6\u5b9a\u4e24\u5f20\u5317\u4eac\u53bb\u547c\u548c\u6d69\u7279\u7684\u673a\u7968\uff0c\u6211\u8ddf\u67d0\u67d0\u67d0\uff0c\u5efa\u8bae\u8d2d\u4e7011\u70b9\u5de6\u53f3\u7684\uff0c\u4e5d\u70b9\u591a\u7684\u6709\u70b9\u8d76\u4e0d\u53ca", "entities_data": {"passenger": "\u6211\u8ddf\u67d0\u67d0\u67d0", "ticket_amount": "\u4e24\u5f20", "from_place": "\u5317\u4eac", "to_place": "\u547c\u548c\u6d69\u7279"}}
+
+{"entities": ["idcard_no"], "intent": ["flight_book"], "usersay": "\t\u67d0\u67d0\u67d0\uff1a***** \u67d0\u67d0\u67d0\uff1a*****", "entities_data": {"idcard_no\uff1a[ '\u67d0\u67d0\u67d0'": "*****", "'\u67d0\u67d0\u67d0'": "*****]"}}
+
+{"entities": ["from_date"], "intent": ["flight_book"], "usersay": "\t\u5468\u4e09\u7684", "entities_data": {"from_date": "\u5468\u4e09"}}
+
+{"intent": ["yes"], "usersay": "\t\u55ef\u662f"}
+
+{"entities": ["ticket_amount", "from_time_period", "passenger"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\u9ebb\u70e6\u5b9a\u4e24\u5f20\u660e\u592910\u70b9\u4e4b\u540e\u7684\u673a\u7968\uff0c\u522b\u592a\u65e9\uff0c\u8fd9\u8fb9\u5835\u8f66\u5230\u673a\u573a\u4e5f\u5dee\u4e0d\u591a\u4e00\u4e2a\u591a\u5c0f\u65f6\u3002\u6211\u548c\u67d0\u67d0\u67d0", "entities_data": {"from_time_period": "10\u70b9\u4e4b\u540e", "passenger": "\u6211\u548c\u67d0\u67d0\u67d0", "ticket_amount": "\u4e24\u5f20"}}
+
+{"entities": ["passenger", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u6211\u548c\u67d0\u67d0\u67d0\u4ece\u547c\u548c\u6d69\u7279\u56de\u5317\u4eac\u7684", "entities_data": {"passenger": "\u6211\u548c\u67d0\u67d0\u67d0", "from_place": "\u547c\u548c\u6d69\u7279", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5\u7684"}
+
+{"intent": ["thanks"], "usersay": "\u6536\u5230\uff0c\u611f\u8c22"}
+
+{"entities": ["from_date", "from_time_period", "passenger", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u660e\u5929\u4e0b\u5348\u968f\u4fbf\u7ed9\u627e\u67b6\u7070\u673a\u6211\u8dd1\u8def,\u5317\u4eac\u56de\u957f\u6625\uff0c\u8c22\u4e86\u3002", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u957f\u6625"}}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time", "flight"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e2a\u56de\u53bb\u7684\u673a\u7968\u5457\uff1f\u660e\u592919\u53f7\u7684\uff0c\u5317\u4eac\u5230\u957f\u6625\uff0c12\u70b9\u7684\u3002CA1641\u3002", "entities_data": {"passenger": "\u6211", "flight": "CA1641", "from_place": "\u5317\u4eac", "from_date": "\u660e\u592919\u53f7", "to_place": "\u957f\u6625", "from_time": "12\u70b9"}}
+
+{"entities": ["from_date", "from_place", "to_place", "from_time"], "intent": ["train_book"], "usersay": "\u884c\u5427", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u592919\u53f7", "from_time": "12\u70b9", "from_place": "\u5317\u4eac", "to_place": "\u957f\u6625"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\t\u67d0\u67d0\u67d0\uff0c\u80fd\u7ed9\u6211\u8ba2\u4e2a\u673a\u7968\u4e0d\uff1f\u660e\u5929\u4e0b\u5348\u7684\u5c31\u884c\u3002\u957f\u6625\u5230\u5317\u4eac\uff0c\u8c22\u8c22\u3002", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u957f\u6625", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["none"], "usersay": "\u884c\u4e48\uff1f\u884c\u7684\u8bdd\u6211\u5c31\u660e\u5929\u6536\u62fe\u4e0b\u8fc7\u53bb\u3002"}
+
+{"intent": ["none"], "usersay": "\t\u884c\u554a"}
+
+{"intent": ["none"], "usersay": "\t\u522b\u6574\u592a\u665a\u5c31\u884c\uff0c\u4f1a\u997f\u6b7b"}
+
+{"entities": ["checkin_date", "checkin_time_period "], "intent": ["hotel_book"], "usersay": "\t\u80fd\u7ed9\u8ba2\u4e2a\u9152\u5e97\u4e0d\uff1f\u660e\u5929\u665a\u4e0a", "entities_data": {"checkin_date": "\u660e\u5929", "checkin_time_period": "\u665a\u4e0a"}}
+
+{"entities": ["map_sort "], "intent": ["hotel_book"], "usersay": "\t\u5728360", "entities_data": {"map_sort": "360"}}
+
+{"entities": ["venue_facility "], "intent": ["hotel_book"], "usersay": "\t\u627e\u4e2a\u80fd\u5403\u996d\u9152\u5e97\u7684\u5730\u4f4f\u554a\uff0c\u671b\u4eac\u592a\u5927\uff0c\u5bb9\u6613\u4e22", "entities_data": {"venue_facility": "\u80fd\u5403\u996d\u7684"}}
+
+{"entities": ["day_amount "], "intent": ["hotel_book"], "usersay": "\t\u4e00\u665a\u4e0a\u5c31\u884c", "entities_data": {"day_amount": "\u4e00\u665a\u4e0a"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u591a\u8c22\uff0c\u540e\u513f\u89c1\u3002"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u7ed9\u6211\u641e\u5f20\u660e\u5929\u7684\u673a\u7968\u8dd1\u8def\u5457\uff1f\u5317\u4eac\u5230\u957f\u6625", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u957f\u6625"}}
+
+{"intent": ["thanks"], "usersay": "\u5e72\u5f97\u6f02\u4eae"}
+
+{"entities": ["from_place", "passenger", "to_date", "to_place"], "intent": ["flight_book"], "usersay": "\u60a8\u597d\uff0c\u8ba2\u673a\u7968\uff0c\u5e7f\u4e1c\u9500\u552e\u7684\u8eab\u4efd\u8bc1\u4fe1\u606f\u5982\u4e0b\uff1a\u67d0\u67d0\u67d0*****\uff0c\u67d0\u67d0\u67d0*****\uff0c\u67d0\u67d0\u67d0*****\uff0c \u6682\u5b9a\u662f5\u53f7\u5230\u4eac,\u8c22\u8c22\u3002", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0'", "to_place": "\u4eac", "'\u67d0\u67d0\u67d0'": "", "from_place": "\u5e7f\u4e1c", "to_date": "5\u53f7"}}
+
+{"entities": ["passenger", "from_place", "passenger", "from_place"], "intent": ["flight_book"], "usersay": "\t\u6069\uff0c\u67d0\u67d0\u67d0\u548c\u67d0\u67d0\u67d0\u4ece\u5e7f\u5dde\u8d77\u98de\uff0c\u67d0\u67d0\u67d0\u4ece\u6df1\u5733\u98de", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0']", "from_place": "\u6df1\u5733"}}
+
+{"intent": ["thanks"], "usersay": "\t\u55ef\uff0c\u8c22\u8c22"}
+
+{"intent": ["none"], "usersay": "\u6df1\u5733\u67d0\u67d0\u67d0\u7684\u673a\u7968\u5b9a\u4e86\u4e48"}
+
+{"intent": ["yes"], "usersay": "\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", "airline"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u672c\u5468\u65e5\u4e0b\u5348\u7684\u5e7f\u5dde\u98de\u5357\u5b81\u7684\u673a\u7968\u3002\u5357\u822a\u9996\u9009[\u5fae\u7b11]", "entities_data": {"passenger": "\u6211", "from_place": "\u5e7f\u5dde", "from_time_period": "\u4e0b\u5348", "from_date": "\u5468\u65e5", "airline": "\u5357\u822a", "to_place": "\u5357\u5b81"}}
+
+{"intent": ["thanks"], "usersay": "\u8c22"}
+
+{"entities": ["passenger", "passenger", "flight", "from_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5c3d\u5feb\u7ed9\u67d0\u67d0\u67d0\u8ba2\u673a\u7968\uff0c \u5e2e\u6211\u5b9a\u8fd9\u73ed\u5427 CZ3108 8\u67085\u65e5\u7684\u3002\u4ece\u5317\u4eac\u5230\u5e7f\u5dde", "entities_data": {"passenger": "\u6211", "from_date": "8\u67085\u65e5", "flight": "CZ3108", "from_place": "\u5317\u4eac", "to_place": "\u5e7f\u5dde"}}
+
+{"intent": ["yes"], "usersay": "\t\u6069"}
+
+{"entities": ["passenger\uff0cfrom_date", "from_time_period", "to_place"], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u62116\u53f7\u4e0b\u5348\u53bb\u6df1\u5733\u5f00\u4f1a", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "6\u53f7", "to_place": "\u6df1\u5733"}}
+
+{"intent": ["thanks"], "usersay": "\u597d\u7684\u591a\u8c22\u5566"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u591a\u8c22"}
+
+{"intent": ["yes"], "usersay": "\t\u597d\u7684"}
+
+{"intent": ["none"], "usersay": "\t\u6539\u597d\u4e86\u53d1\u6211\u4e00\u4e0b\uff0c\u591a\u8c22"}
+
+{"entities": ["passenger", "from_date"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e00\u4e0b\u4e5d\u6708\u4e94\u65e5\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u4e5d\u6708\u4e94\u65e5"}}
+
+{"entities": ["from_place"], "intent": ["flight_book"], "usersay": "\t\u91cd\u5e86", "entities_data": {"from_place": "\u91cd\u5e86"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e0b\u660e\u5929\u4e2d\u5348\u5de6\u53f3\u5317\u4eac\u8fd4\u56de\u91cd\u5e86\u7684\u7968\u5427\uff0c\u8c22\u8c22\u3002", "entities_data": {"from_time_period": "\u4e2d\u5348\u5de6\u53f3", "passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u91cd\u5e86"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22\u3002"}
+
+{"entities": ["passenger", "to_time_period", "to_place", "from_place"], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e00\u4e0b\u4eca\u660e\u4e24\u5929\u5230\u5317\u4eac\u7684\u7968\u5427\uff0c\u4ece\u91cd\u5e86\u51fa\u53d1", "entities_data": {"passenger": "\u6211", "to_place": "\u5317\u4eac", "from_place": "\u91cd\u5e86", "to_time_period": "\u4eca\u660e\u4e24\u5929"}}
+
+{"intent": ["thanks"], "usersay": "\u6536\u5230\uff0c\u53ef\u4ee5\u3002\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e0b\u4eca\u5929\u5317\u4eac\u8fd4\u7a0b\u7684\u7968\u5427\uff0c\u56de\u91cd\u5e86\u8c22\u8c22\u300210.40\u7684\u4fbf\u5b9c\u70b9\u3002", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "from_time": "10.40", "from_place": "\u5317\u4eac", "to_place": "\u91cd\u5e86"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22\u3002"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time_period", "time_deadline"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e2a\u660e\u5929\u91cd\u5e86\u5230\u5317\u4eac\u7684\u673a\u7968\u5427\uff0c\u65f6\u95f4\u4e0d\u8981\u592a\u665a\u7684\u90fd\u53ef\u4ee5\u3002\u8c22\u8c22\u3002\u521a\u63a5\u5230\u5468\u516d\u8981\u5230\u516c\u53f8\u7684\u901a\u77e5\u3002", "entities_data": {"passenger": "\u6211", "from_place": "\u91cd\u5e86", "time_deadline": "\u5468\u516d\u8981\u5230\u516c\u53f8", "from_time_period": "\u65f6\u95f4\u4e0d\u8981\u592a\u665a", "from_date": "\u660e\u5929", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "idcard_no"], "intent": ["flight_book"], "usersay": "\t\u67d0\u67d0\u67d0 *****", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"entities": ["from_time", "airline"], "intent": ["flight_book"], "usersay": "\t\u516b\u70b935\uff0c\u5357\u822a\u7684\u5427\uff0c\u53ef\u4ee5\uff0c\u8c22\u8c22\u3002", "entities_data": {"from_time": "\u516b\u70b935", "airline": "\u5357\u822a"}}
+
+{"entities": ["passenger", "from_time_period", "from_place", "to_place\uff0cfrom_date"], "intent": ["flight_book"], "usersay": "\u518d\u5e2e\u6211\u8ba2\u5f20\u665a\u4e0a\u4e03\u70b9\u540e\u5317\u4eac\u56de\u91cd\u5e86\u7684\u673a\u7968\u5427\uff0c\u4eca\u5929\u4e0b\u5348\u57f9\u8bad\u5b8c\u5c31\u6ca1\u4e8b\u4e86\u3002\u8c22\u8c22", "entities_data": {"from_time_period": "\u665a\u4e0a7\u70b9\u540e", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u5317\u4eac", "to_place": "\u91cd\u5e86"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place", "idcard_no"], "intent": ["flight_book"], "usersay": "\u4f60\u597d\uff0c\u6211\u9700\u8981\u8ba28\u670831\u53f7\u4e0b\u53482\u70b9\u52304\u70b9\u5317\u4eac\u5230\u5e7f\u5dde\u7684\u673a\u7968\u4e00\u5f20\u3002\u8bc1\u4ef6\u53f7\uff1a\u67d0\u67d0\u67d0 ***** \u8c22\u8c22\u4e86", "entities_data": {"passenger": "\u6211", "from_place": "\u5317\u4eac", "from_time_period": "\u4e0b\u53482\u70b9\u52304\u70b9", "from_date": "8\u670831\u53f7", "idcard_no": "*****", "to_place": "\u5e7f\u5dde"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5\u7684"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place", "passenger", "idcard_no"], "intent": ["flight_book"], "usersay": "\u4f60\u597d\uff0c\u9700\u8981\u8ba29\u67082\u53f717\u70b9\u523019\u70b9\u5e7f\u5dde\u5230\u5317\u4eac\u7684\u673a\u7968\u4e00\u5f20\u3002\u8bc1\u4ef6\u53f7\uff1a\u67d0\u67d0\u67d0 ***** \u8c22\u8c22\u4e86", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_place": "\u5e7f\u5dde", "from_time_period": "17\u70b9\u523019\u70b9", "from_date": "9\u67082\u53f7", "idcard_no": "*****", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\tok"}
+
+{"entities": ["passenger", "ticket_amount"], "intent": ["flight_book"], "usersay": "\u4eb2\u7231\u7684\uff0c\u4f60\u6765\u4e86\u4e48\uff0c\u5e2e\u6211\u5b9a\u4e24\u5f20\u673a\u7968", "entities_data": {"passenger": "\u6211", "ticket_amount": "\u4e24\u5f20"}}
+
+{"entities": ["from_date", "from_time_period", "from_place", "to_place", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "21\u53f7\u4e0b\u5348\u5317\u4eac\u2014\u2014\u5415\u6881\uff0c22\u53f7\u4e0b\u5348\u5415\u6881\u2014\u2014\u5317\u4eac", "entities_data": {"from_time_period": "\u4e0b\u5348", "from_date": "22\u53f7", "from_place": "\u5415\u6881", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["none"], "usersay": "\t\u5bf9\uff0c\u6211\u6bd4\u4ed6\u4eec\u665a\u53bb\u4e00\u5929"}
+
+{"entities": ["passenger", "ticket_amount"], "intent": ["flight_book"], "usersay": "\t\u56de\u6765\u7684\u662f\u6211\u8ddf\u67d0\u67d0\u67d0\u7684\uff0c\u4e24\u5f20", "entities_data": {"passenger": "['\u6211'", "ticket_amount": "\u4e24\u5f20"}}
+
+{"entities": ["passenger", "from_place", "to_place", "ticket_type"], "intent": ["flight_book"], "usersay": "\t\u660e\u5929\u5e2e\u6211\u548c\u67d0\u67d0\u67d0\u5b9a\u4e0b\u5317\u4eac\u53bb\u4e0a\u6d77\u7684\u8fd4\u7a0b\u673a\u7968\u5566\uff0c\u8c22\u5566", "entities_data": {"ticket_type": "\u8fd4\u7a0b", "passenger": "['\u6211'", "from_place": "\u5317\u4eac", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["from_date", "from_date"], "intent": ["flight_book"], "usersay": "26\u8d70\uff0c27\u56de", "entities_data": {"from_date": "27"}}
+
+{"entities": ["passenger", "from_place", "to_place", "from_date"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u4e00\u4e0b \u5317\u4eac\u98de\u6d4e\u5b81\u7684\u673a\u7968  \u4eca\u5929\u7684", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u5317\u4eac", "to_place": "\u6d4e\u5b81"}}
+
+{"entities": ["time_deadline"], "intent": ["flight_book"], "usersay": "\u57f9\u8bad\u65f6\u95f48\u67084\u65e5\u4e0a\u53489\u70b9\uff0c\u5730\u70b9\u6d4e\u5b81\u5e02\u5e02\u4e2d\u533a\uff0c\u901a\u4fe1\u5927\u53a6\uff0c\u591a\u529f\u80fd\u5385\uff0c\u8054\u7cfb\u4eba", "entities_data": {"time_deadline": "8\u67084\u65e5\u4e0a\u53489\u70b9"}}
+
+{"intent": ["none"], "usersay": "\t\u5e2e\u6211\u627e\u4e00\u4e0b"}
+
+{"entities": ["passenger", "from_date", "airline", "to_place", "from_place"], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u4eec\u770b\u770b\u660e\u5929\u4e1c\u822a\u5230\u8679\u6865\u7684\u7968\uff0c\u5317\u4eac\u51fa\u53d1", "entities_data": {"passenger": "\u6211\u4eec", "from_date": "\u660e\u5929", "airline": "\u4e1c\u822a", "to_airport": "\u8679\u6865 from_place", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["from_time_period"], "intent": ["flight_book"], "usersay": "\t\u4e0b\u5348\u7684", "entities_data": {"from_time_period": "\u4e0b\u5348"}}
+
+{"entities": ["from_time"], "intent": ["flight_book"], "usersay": "\t5\u70b9", "entities_data": {"from_time": "5\u70b9"}}
+
+{"entities": ["from_date", "from_place", "to_place", "from_time_period", "passenger", "ticket_amount"], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u5e2e\u5fd9\u8ba2\u4e0b15\u53f7\u4e0a\u6d77\u5230\u5317\u4eac\u7684\u673a\u7968\uff0c\u6700\u597d\u8ba2\u5341\u70b9\u7684\uff0c\u5982\u679c\u6ca1\u6709\u5c31\u5f80\u540e\u987a\u5ef6\u65f6\u95f4\u3002\uff08\u67d0\u67d0\u67d0\uff0c\u67d0\u67d0\u67d0\u4e24\u5f20\u673a\u7968\uff09\u67d0\u67d0\u67d0\u548c\u67d0\u67d0\u67d0\u4e0e\u67d0\u67d0\u67d0\u9884\u8ba1\u660e\u5929\u665a\u4e0a\u56de\u53bb\u3002", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0'", "ticket_amount": "\u4e24\u5f20", "from_place": "\u4e0a\u6d77", "from_time_period": "\u5341\u70b9\u5de6\u53f3", "from_date": "15\u53f7", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u611f\u8c22\uff01"}
+
+{"entities": ["passenger", "from_date", "from_time", "to_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e0b\u660e\u5929\u4e0b\u5348\uff0817\u53f7\uff09\u4e09\u70b9\u53bb\u4e0a\u6d77\u7684\u98de\u673a\uff0c\u53ef\u4ee5\u5f80\u540e\u5ef6\uff0c\u8c22\u8c22", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929\uff0817\u53f7\uff09", "from_time": "\u4e09\u70b9", "to_place": "\u4e0a\u6d77"}}
+
+{"intent": ["thanks"], "usersay": "\t\u611f\u8c22\uff01"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u67d0\u67d0\u67d0\u8ba2\u4e0b\u4eca\u5929\u665a\u4e0a\u4e0a\u6d77\u53bb\u5317\u4eac\u7684\u673a\u7968\uff0c\u8c22\u8c22\u3002", "entities_data": {"from_time_period": "\u665a\u4e0a", "passenger": "\u67d0\u67d0\u67d0", "from_date": "\u4eca\u5929", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e0b\u660e\u5929\u65e9\u4e0a\u5317\u4eac\u53bb\u4e0a\u6d77\u7684\u673a\u7968", "entities_data": {"from_time_period": "\u65e9\u4e0a", "from_date": "\u660e\u5929", "passenger\u6211": "", "from_place": "\u5317\u4eac", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["flight", "from_date", "from_place", "from_terminal_building", "to_place", "to_airport", "to_terminal_building", "from_time", "to_time"], "intent": ["flight_book"], "usersay": "\t\u5e2e\u5fd9\u8ba2\u8fd9\u4e2a\u5427  CZ3907  6\u670814\u65e5   \u5317\u4eacT2-\u4e0a\u6d77\u8679\u6865T2   \u8d77\u98de08:20-10:35\u964d\u843d", "entities_data": {"to_airport": "\u4e0a\u6d77\u8679\u6865", "from_terminal_building": "T2", "from_place": "\u5317\u4eac", "from_time": "08", "from_date": "6\u670814\u65e5", "to_time": "10", "to_place": "\u4e0a\u6d77", "flight": "CZ3907", "to_terminal_building": "T2"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u611f\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u770b\u4e00\u4e0b\u660e\u5929\u4e2d\u5348\u5de6\u53f3\u7684\u547c\u548c\u6d69\u7279\u5230\u5317\u4eac\u7684\u98de\u673a\u90fd\u6709\u51e0\u70b9\u7684\u5457", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_time_perio": "\u4e2d\u5348", "from_place": "\u547c\u548c\u6d69\u7279", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_time", "passenger", "ticket_amount"], "intent": ["flight_book"], "usersay": "\t1\u70b945\u90a3\u73ed\u5427~\u6211\u548c\u67d0\u67d0\u67d0\u4e24\u4e2a\u4eba\u7684", "entities_data": {"passenger": "['\u6211'", "ticket_amount": "\u4e24\u4e2a\u4eba\u7684", "from_time": "1\u70b945"}}
+
+{"intent": ["thanks"], "usersay": "\t\u9ebb\u70e6\u5566\u8c22\u8c22"}
+
+{"entities": ["to_airport"], "intent": ["flight_book"], "usersay": "\t\u5230\u9996\u90fd\u673a\u573a\u5427[\u9f87\u7259]\u4e09\u514b\u6cb9", "entities_data": {"to_airport": "\u9996\u90fd\u673a\u573a"}}
+
+{"entities": ["passenger"], "intent": ["flight_book"], "usersay": "\t\u6211\u548c\u67d0\u67d0\u67d0\u4e24\u4e2a\u4eba", "entities_data": {"passenger": "['\u6211'"}}
+
+{"entities": ["to_airport"], "intent": ["flight_book"], "usersay": "\t\u6069\u90a3\u5c31\u5357\u82d1\u7684\u5427", "entities_data": {"to_airport": "\u5357\u82d1"}}
+
+{"intent": ["ok"], "usersay": "\t\u4e70\u5b8c\u4e86\u54e6\u4e00\u58f0\u54c8\u4e09\u514b\u6cb9"}
+
+{"entities": ["passenger", "to_date", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u7ed9\u6211\u8ba2\u4e00\u4e0b10\u53f7\u5317\u4eac\u5230\u5b81\u6ce2\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "to_date": "10\u53f7", "from_place": "\u5317\u4eac", "to_place": "\u5b81\u6ce2"}}
+
+{"entities": ["idcard_no"], "intent": ["flight_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["yes"], "usersay": "\t\u55ef"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e2a\u4eca\u5929\u7684\u673a\u7968 \u5b81\u6ce2\u51fa\u53d1\u7684\u56de\u5317\u4eac  \u6700\u597d\u4e0b\u5348\u516d\u4e03\u70b9\u7684 \u8fd9\u91cc\u8fd8\u6709\u4e00\u70b9\u5c0f\u95ee\u9898", "entities_data": {"from_time_period": "\u4e0b\u5348\u516d\u4e03\u70b9\u7684", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u5b81\u6ce2", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["none"], "usersay": "\u4ed6\u8fd8\u6ca1\u786e\u5b9a \u6709\u4e2a\u95ee\u9898\u5728\u89e3\u51b3"}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["from_date", "from_place", "to_place", "passenger", "idcard_no "], "intent": ["flight_book"], "usersay": "4\u670812\u53f7\u7684\u673a\u7968  \u5317\u4eac\u5230\u5357\u4eac  \u8eab\u4efd\u8bc1\u53f7:\u67d0\u67d0\u67d0 *****", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_date": "4\u670812\u53f7", "idcard_no": " *****", "from_place": "\u5317\u4eac", "to_place": "\u5357\u4eac"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u4eb2\u5e2e\u6211\u5b9a\u4e0b \u4eca\u5929\u4e0b\u5348  \u5357\u4eac\u5230\u6df1\u5733\u7684\u673a\u7968  \u8c22\u8c22", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u5357\u4eac", "to_place": " \u6df1\u5733"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u4e70\u4e00\u5f20\u4eca\u5929\u4e0b\u5348\u6216\u8005\u665a\u4e0a\u6df1\u5733\u56de\u5317\u4eac\u7684\u673a\u7968", "entities_data": {"from_time_period": "\u4e0b\u5348\u6216\u8005\u665a\u4e0a", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u6df1\u5733", "to_place": " \u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u8ba2\u660e\u5929\u7684\u673a\u7968 \u5317\u4eac\u5230\u5357\u4eac \u548c\u67d0\u67d0\u67d0\u4e00\u8d77\u7684", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": " \u5357\u4eac"}}
+
+{"entities": ["from_date", "from_time_period "], "intent": ["flight_book"], "usersay": "\t\u8ba2\u4eca\u5929\u665a\u4e0a\u7684\u5427", "entities_data": {"from_time_period": " \u665a\u4e0a", "from_date": "\u4eca\u5929"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u4eb2 \u5e2e\u6211\u5b9a\u4e2a\u5468\u4e94\u65e9\u4e0a\u5317\u4eac\u5230\u5357\u4eac\u7684\u98de\u673a", "entities_data": {"from_time_period": "\u65e9\u4e0a", "passenger": "\u6211", "from_date": "\u5468\u4e94", "from_place": "\u5317\u4eac", "to_place": " \u5357\u4eac"}}
+
+{"entities": ["from_date", "from_time_period "], "intent": ["flight_book"], "usersay": "\t\u5468\u56db\u665a\u4e0a\u5427  \u8981\u4e0d\u6ca1\u51c6\u6765\u4e0d\u53ca", "entities_data": {"from_time_period": " \u665a\u4e0a", "from_date": "\u5468\u56db"}}
+
+{"entities": ["from_date", "from_time_period "], "intent": ["flight_book"], "usersay": "\u5468\u56db\u4e2d\u5348\u6216\u8005\u4e0b\u5348\u7684 \u5230\u54ea\u91cc\u597d\u80fd\u4f11\u606f\u4e0b", "entities_data": {"from_time_period": " \u4e2d\u5348\u6216\u8005\u4e0b\u5348", "from_date": "\u5468\u56db"}}
+
+{"entities": ["time_deadline "], "intent": ["flight_book"], "usersay": "\t\u5468\u4e94\u5c31\u5f97\u5e72\u6d3b \u5468\u4e94\u7684\u673a\u7968\u5230\u4e86\u5c31\u4e2d\u5348\u4e86", "entities_data": {"time_deadline": " \u5468\u4e94"}}
+
+{"intent": ["thanks"], "usersay": "\t3q"}
+
+{"intent": ["thanks"], "usersay": "\t\t3Q"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u9ebb\u70e6\u5e2e\u6211\u5b9a\u4e00\u4e2a \u660e\u5929\u4e0b\u5348\u7684\u98de\u673a \u5317\u4eac\u5230\u5357\u4eac \u51fa\u5dee\u6c5f\u82cf\u516c\u5b89\u9879\u76ee", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": " \u5357\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5"}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place "], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a10\u67087\u53f7\u665a\u4e0a \u540e\u80058\u53f7\u7684\u673a\u7968 \u5230\u5357\u4eac", "entities_data": {"from_time_period": "\u665a\u4e0a", "passenger": "\u6211", "from_date": "10\u67087\u53f7", "to_place": "\u5357\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\ten"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u5b9a\u660e\u5929\u5317\u4eac\u53bb\u4e0a\u6d77\u7684\u673a\u7968 \u4e0a\u4ea4\u6240\u9879\u76ee", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["airport "], "intent": ["flight_book"], "usersay": "\t\u8679\u6865", "entities_data": {"airport": "\u8679\u6865"}}
+
+{"intent": ["none"], "usersay": "\t\u67d0\u67d0\u67d0\u597d\u50cf\u81ea\u5df1\u627e\u4f60\u5b9a"}
+
+{"intent": ["none"], "usersay": "\t\u6211\u4fe9\u4e0d\u4e00\u8d77\u8d70"}
+
+{"entities": ["passenger", "from_date", "from_time", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u660e\u59294.30\u7684\u673a\u7968 \u4ece\u5317\u4eac\u51fa\u53d1\u53bb\u5e7f\u5dde", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_time": "4.30 from_place", "to_place": "\u5e7f\u5dde"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u611f\u8c22\u3002"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\u548c\u6211\u7684\u7968\u8ba2\u4e86\u5417\uff1f 8\u67082\u65e5\u5e7f\u5dde\u56de\u5317\u4eac\u7684", "entities_data": {"passenger": "['\u6211'", "from_date": "8\u67082\u65e5", "from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger\uff0cfrom_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u5f20\u673a\u7968\uff0c\u4eca\u5929\u4e0b\u5348\u516d\u70b9\u949f\uff0c\u5317\u4eac\u5230\u5e7f\u5dde", "entities_data": {"passenger": "\u6211", "from_place": "\u5e7f\u5dde", "from_time_period": "\u4e0b\u5348", "from_date": "\u4eca\u5929", "to_place": "\u5317\u4eac", "from_time": "\u516d\u70b9\u949f"}}
+
+{"intent": ["yes"], "usersay": "\t\u6069"}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u5927\u6982\u65f6\u95f4", "entities_data": {"from_time_period": "\u516d\u70b9\u949f\u5927\u6982"}}
+
+{"entities": ["airline "], "intent": ["flight_book"], "usersay": "\t\t\u5357\u822a\u7684", "entities_data": {"airline": "\u5357\u822a"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e0b\u4eca\u5929\u665a\u4e0a\u4e0a\u6d77\u53bb\u5317\u4eac\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "from_time_perio": "\u665a\u4e0a", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["airport "], "intent": ["flight_book"], "usersay": "\t\u8679\u6865", "entities_data": {"airport": "\u8679\u6865"}}
+
+{"intent": ["yes"], "usersay": "\u53ef\u4ee5"}
+
+{"entities": ["passenger", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u8ba2\u5f20\u4e0a\u6d77\u53bb\u73e0\u6d77\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_place": "\u4e0a\u6d77", "to_place": "\u73e0\u6d77"}}
+
+{"entities": ["from_date "], "intent": ["flight_book"], "usersay": "\t28\u53f7\u7684  \u51fa\u5dee", "entities_data": {"from_date": "28\u53f7"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u665a\u4e0a\u7684\u822a\u73ed\u6709\u5417", "entities_data": {"from_time_period": "\u665a\u4e0a"}}
+
+{"intent": ["yes"], "usersay": "\t\u5bf9\u7684"}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5\u7684"}
+
+{"intent": ["thanks"], "usersay": "\u6536\u5230\uff0c\u611f\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u5e2e\u6211\u8ba2\u5f20\u540e\u5929\u73e0\u6d77\u5230\u4e0a\u6d77\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u540e\u5929", "from_place": "\u73e0\u6d77", "to_place": "\u4e0a\u6d77"}}
+
+{"intent": ["yes"], "usersay": "\t\u55ef"}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5"}
+
+{"entities": ["passenger", "from_date", "to_place", "from_place "], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u67d0\u67d0\u67d0\uff0c\u67d0\u67d0\u67d0 \u4eca\u5929\u665a\u4e0a\u5230\u5b81\u6ce2\u3002\u8bf7\u4e70\u673a\u7968\u3002\u4ece\u5317\u4eac\u51fa\u53d1", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0'", "from_date": "\u4eca\u5929", "'\u67d0\u67d0\u67d0'": "", "from_place": "\u5317\u4eac", "to_place": "\u5b81\u6ce2"}}
+
+{"entities": ["passenger", "idcard_no", "to_date", "from_palce", "to_time_period", "from_place"], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0*****2016-06-22\u53bb\u4e0a\u6d77\u4e0a\u4ea4\u6240 \u4e2d\u534812\u70b9\u5de6\u53f3\u4e4b\u524d\u5230\u5373\u53ef\uff0c\u4ece\u5317\u4eac\u51fa\u53d1", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_palce": "\u5317\u4eac", "from_place": "\u5317\u4eac", "to_time_period": "\u4e2d\u534812\u70b9\u5de6\u53f3", "idcard_no": "*****", "to_date": "2016-06-22"}}
+
+{"entities": ["from_date "], "intent": ["flight_book"], "usersay": "\t\u660e\u5929\u8d70", "entities_data": {"from_date": "\u660e\u5929"}}
+
+{"entities": ["from_airport "], "intent": ["flight_book"], "usersay": "\t\u90fd\u53ef\u4ee5 \u6d66\u4e1c\u5427", "entities_data": {"from_airport": "\u6d66\u4e1c"}}
+
+{"intent": ["thanks"], "usersay": "2016-06-21 14:13:16\t1\t\u8c22\u8c22"}
+
+{"entities": ["passenger", "idcard_no", "to_date", "from_place", "from_palce", "to_time_period "], "intent": ["flight_book"], "usersay": "\u67d0\u67d0\u67d0*****2016-06-23\u53f7 \u5317\u4eac\u53bb\u4e0a\u6d77\u4e0a\u4ea4\u6240  \u4e2d\u534812\u70b9\u4e4b\u524d\u5230\u5373\u53ef", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_palce": "\u4e0a\u6d77", "from_place": "\u5317\u4eac", "to_time_period": "\u4e2d\u534812\u70b9\u4e4b\u524d\u5230", "idcard_no": "*****", "to_date": "2016-06-23\u53f7"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230  \u8c22\u8c22"}
+
+{"entities": ["from_date", "passenger", "from_place", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u4f60\u597d \u4eca\u5929\u6211\u8981\u4ece\u4e0a\u6d77\u56de\u5317\u4eac \u7968\u9700\u8981\u600e\u4e48\u8ba2", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["yes"], "usersay": "\t\u662f\u7684"}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u4e0b\u5348", "entities_data": {"from_time_period": "\u4e0b\u5348"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t2\u70b9\u4e4b\u540e\u5c31\u884c", "entities_data": {"from_time_period": "2\u70b9\u4e4b\u540e\u5c31\u884c"}}
+
+{"intent": ["yes"], "usersay": "\t\u53ef\u4ee5"}
+
+{"intent": ["yes"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date "], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u9876\u4e00\u4e0b\u660e\u5929\u7684\u673a\u7968", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929"}}
+
+{"entities": ["from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u5e7f\u5dde\u56de\u5317\u4eac\u7684", "entities_data": {"from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "from_place", "from_airport", "to_place", "airline", "flight", "from_time", "ariline", "flight", "from_time "], "intent": ["flight_book"], "usersay": "\u7ed9\u6211\u5b9a\u5f20\u673a\u7968\uff0c\u4e0a\u6d77\u8679\u6865\u673a\u573a\u5230\u6606\u660e\uff1a\u4e1c\u822aFM9453/8:15\u8d77\u98de\uff1b\u5409\u7965HO1121/8:35\u8d77\u98de", "entities_data": {"passenger": "\u6211", "flight": "HO1121", "from_place": "\u4e0a\u6d77", "ariline": "\u5409\u7965", "from_airport": "\u4e0a\u6d77\u8679\u6865\u56fd\u9645\u673a\u573a", "airline": "\u4e1c\u822a", "to_place": "\u6606\u660e", "from_time": "8"}}
+
+{"intent": ["none"], "usersay": "\t\u4f60\u770b\u7740\u8ba2\u5c31\u884c"}
+
+{"entities": ["passenger", "from_date", "flight", "from_time", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u6211\u9700\u8981\u8ba2\u4e2a\u673a\u7968\uff0c\u660e\u5929\u7684  FM9454 16\uff1a45\u8d77\u98de\u7684 \u6606\u660e\u81f3\u4e0a\u6d77", "entities_data": {"passenger": "\u6211", "flight": "FM9454", "from_place": "\u6606\u660e", "from_date": "\u660e\u5929", "to_place": "\u4e0a\u6d77", "from_time": "16"}}
+
+{"entities": ["flight "], "intent": ["flight_book"], "usersay": "\t\u53ef\u4ee5\u5b9aMU5813\u7684Y\u8231", "entities_data": {"flight": "MU5813"}}
+
+{"intent": ["yes"], "usersay": "\t\u597d\u7684\uff0c\u6536\u5230"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u5728\u5417 \u6211\u9700\u8981\u4e70\u7968\uff0c \u660e\u5929\u5317\u4eac\u53bb\u5357\u4eac\u7684", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u5357\u4eac"}}
+
+{"entities_data": {"ticket_book_type": "\u673a\u7968"}, "intent": ["flight_book"], "usersay": "\u673a\u7968\u5427"}
+
+{"entities": ["idcard_no "], "intent": ["flight_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u5341\u70b9\u524d\u540e\u8d77\u98de\u7684\u6709\u6ca1\u6709", "entities_data": {"from_time_period": "\u5341\u70b9\u524d\u540e"}}
+
+{"entities": ["passenger "], "intent": ["flight_book"], "usersay": "\u5728\u4e0d\uff1f \u6211\u60f3\u8ba2\u673a\u7968\u662f\u627e\u4f60\u4e0d\uff1f", "entities_data": {"passenger": "\u6211"}}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "(to_time_period)", "idcard_no"], "intent": ["flight_book"], "usersay": "\u6211\u548c\u67d0\u67d0\u67d0\u4e24\u4e2a\u4eba\u5468\u65e527\u53f7\u5317\u4eac\u5230\u5e7f\u5dde\uff0c\uff08\u4e0b\u53481\u30012\u70b9\u5de6\u53f3\u5230\u5e7f\u5dde\uff09\u67d0\u67d0\u67d0 \u8eab\u4efd\u8bc1\uff1a***** \u67d0\u67d0\u67d0\u8eab\u4efd\u8bc1\uff1a*****", "entities_data": {"passenger": "['\u6211'", "from_place": "\u5317\u4eac", "from_date": "\u5468\u65e527\u65e5", "idcard_no": "['*****'", "to_place": "\u5e7f\u5dde", "(to_time_period": "\u4e0b\u53481\u30012\u70b9\u5de6\u53f3)"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8f9b\u82e6\uff0c\u611f\u8c22\uff01"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u548c\u67d0\u67d0\u67d0\u8ba2\u4e00\u4e0b\u660e\u5929\u7684\u673a\u7968\uff0c\u6df1\u5733\u5230\u5317\u4eac\u7684", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0'", "from_date": "\u660e\u5929", "'\u67d0\u67d0\u67d0'": "", "from_place": "\u6df1\u5733", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u6211\u770b\u4e86\u4e00\u4e0b\uff0c\u4e2d\u5348\u90a3\u73ed\u6bd4\u8f83\u4fbf\u5b9c[\u9f87\u7259][\u9f87\u7259]", "entities_data": {"from_time_period": "\u4e2d\u5348"}}
+
+{"entities": ["from_place "], "intent": ["flight_book"], "usersay": "\t\u6211\u4eec\u4ece\u6df1\u5733\u8d70", "entities_data": {"from_place": "\u6df1\u5733"}}
+
+{"entities": ["from_time", "airline"], "intent": ["flight_book"], "usersay": "\u4e4b\u524d\u53d1\u4f60\u56fe\u8fd9\u4e2a\uff0c12\u70b955\u8fd9\u4e2a\u6d77\u822a\u7684", "entities_data": {"from_time": "12\u70b955", "airline": "\u6d77\u822a"}}
+
+{"intent": ["thanks"], "usersay": "\tok\uff0c\u611f\u8c22"}
+
+{"intent": ["thanks"], "usersay": "\t\u611f\u8c22"}
+
+{"entities": ["from_date", "from_time_period", "passenger", "to_place", "from_time_period", "to_time_period", "from_place", "idcard_no "], "intent": ["flight_book"], "usersay": "\u660e\u5929\u65e9\u4e0a\uff0c\u67d0\u67d0\u67d0\u3001\u67d0\u67d0\u67d0\u53bb\u5185\u8499\u53e4\u547c\u548c\u6d69\u7279\u51fa\u5dee\uff0c\u98de\u673a\uff0c\u8ba29\u70b9\u591a\u5341\u70b9\u7684\u7968\uff0c\u8ba9\u4ed6\u4eec\u4e2d\u5348\u4e4b\u524d\u5230\u8fbe\uff0c\u5317\u4eac\u51fa\u53d1\uff0c\u9ebb\u70e6\u5e2e\u5fd9\u8ba2\u4e00\u4e0b\u7968\uff0c\u8eab\u4efd\u8bc1\u53f7\u76f4\u63a5\u6253\u7535\u8bdd\u95ee\u4ed6\u4eec\u5427\uff0c\u4ed6\u4eec\u4fe9\u4eca\u5929\u5728\u603b\u53c2\u51fa\u5916\u52e4\uff0c\u8c22\u8c22\u4e86", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0'", "from_place": "\u5317\u4eac", "from_time_period": "9\u70b9\u591a\u5341\u70b9", "to_time_period": "\u4e2d\u5348\u4e4b\u524d", "from_date": "\u660e\u5929", "idcard_no": "['*****'", "to_place": "\u547c\u548c\u6d69\u7279"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8f9b\u82e6\u4e86"}
+
+{"entities": ["to_place", "flight "], "intent": ["flight_book"], "usersay": "\t\u53bb\u5185\u8499\u53e4\u7684\u540c\u4e8b\u662f\u54ea\u4e2a\u822a\u73ed\uff1f", "entities_data": {"flight": "\uff1f", "to_place": "\u5185\u8499\u53e4"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22"}
+
+{"entities": ["from_date", "passenger", "from_place", "to_place", "from_time_period", "to_time_period", "idcard_no "], "intent": ["flight_book"], "usersay": "\u660e\u5929\u67d0\u67d0\u67d0\u4ece\u5317\u4eac\u5230\u5185\u8499\u53e4\u547c\u548c\u6d69\u7279\u51fa\u5dee\uff0c\u98de\u673a\uff0c\u8ba29\u70b9\u591a\u5341\u70b9\u5de6\u53f3\u7684\u7968\uff0c\u5c3d\u91cf\u4e2d\u5348\u4e4b\u524d\u5230\u8fbe\uff0c\u9ebb\u70e6\u5e2e\u5fd9\u8ba2\u4e00\u4e0b\u7968\uff0c\u8eab\u4efd\u8bc1\u53f7\u4f60\u84dd\u4fe1\u95ee\u4e0b\u67d0\u67d0\u67d0\uff0c\u6211\u548c\u4ed6\u6253\u8fc7\u62db\u547c\u4e86", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_place": "\u5317\u4eac", "from_time_period": "9\u70b9\u591a\u5341\u70b9", "to_time_period": "\u4e2d\u5348\u4e4b\u524d", "from_date": "\u660e\u5929", "idcard_no": "*****", "to_place": "\u5185\u8499\u53e4\u547c\u548c\u6d69\u7279"}}
+
+{"entities": ["to_place "], "intent": ["flight_book"], "usersay": "\t\u5185\u8499\u53e4\u516c\u5b89\u8fb9\u9632\u603b\u961f", "entities_data": {"to_place": "\u5185\u8499\u53e4"}}
+
+{"entities": ["to_time "], "intent": ["flight_book"], "usersay": "\u4e24\u70b9\u4e5f\u8fd8\u51d1\u5408\uff0c\u5230\u5ba2\u6237\u73b0\u573a\u73b0\u4e2a\u8eab\u5457", "entities_data": {"to_time": "\u4e24\u70b9"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["from_date", "passenger", "from_place\uff0cto_place "], "intent": ["flight_book"], "usersay": "\u8981\u8ba2\u4e00\u5f20\u660e\u5929\u7684\u673a\u7968\uff0c\u67d0\u67d0\u67d0\uff0c\u5317\u4eac\u51fa\u53d1\u6700\u7ec8\u76ee\u7684\u5730\u662f\u4f5b\u5c71\uff0c\u98de\u5e7f\u5dde\u7684\u8bdd\u6253\u8f66\u8fc7\u53bb\u597d\u50cf\u8981\u5c0f300\uff0c\u4f60\u770b\u770b\u600e\u4e48\u4e70\u7968\u5408\u9002\uff0c\u5e7f\u53d1\u94f6\u884c\u90e8\u7f72\u3001\u987a\u5fb7\u519c\u5546\u884c\u5347\u7ea7\u4e24\u4e2a\u9879\u76ee\uff0c", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_date": "\u660e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u4f5b\u5c71"}}
+
+{"entities": ["airport "], "intent": ["flight_book"], "usersay": "\u4f5b\u5c71\u673a\u573a\u6253\u8f66\u5230\u76ee\u7684\u5730\u767e\u5ea6\u5730\u56fe\u663e\u793a\u4e09\u5341\u51e0\uff0c\u5e7f\u5dde\u8fc7\u53bb\u662f\u4e8c\u767e\u96f6\u51e0\uff0c\u5927\u5df4\u591a\u5c11\u94b1\uff1f", "entities_data": {"airport": "\u4f5b\u5c71\u673a\u573a"}}
+
+{"intent": ["ok"], "usersay": "\u597d\u7684"}
+
+{"entities": ["from_date", "from_time", "airport", "passenger", "to_place "], "intent": ["flight_book"], "usersay": "\u5468\u4e94\u65e9\u4e0a\u4e5d\u70b9\u7684\u5427\uff0c\u9996\u90fd\u673a\u573a\u53ef\u4ee5\uff0c\u67d0\u67d0\u67d0\u4e00\u4e2a\u4eba\uff08\u4f4f\u987a\u4e49\uff0c\u53bb\u5357\u82d1\u6709\u70b9\u8fdc\uff09\uff0c\u5230\u5e7f\u5dde", "entities_data": {"airport": "\u9996\u90fd\u673a\u573a", "from_date": "\u5468\u4e94", "to_place": "\u5e7f\u5dde", "from_time": "\u65e9\u4e0a\u4e5d\u70b9", "passenger": "\u67d0\u67d0\u67d0"}}
+
+{"entities": ["from_date", "passenger", "to_place", "from_palce "], "intent": ["flight_book"], "usersay": "\u4f60\u597d\uff0c\u67d0\u67d0\u67d0\u8ba9\u6211\u548c\u4f60\u8054\u7cfb\u4e0b\uff0c\u8ba2\u7968\u7684\u4e8b\uff0c\u660e\u5929\u6211\u53bb\u547c\u548c\u6d69\u7279,\u4ece\u5317\u4eac\u51fa\u53d1", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "from_palce": "\u5317\u4eac", "to_place": "\u547c\u548c\u6d69\u7279"}}
+
+{"entities": ["idcard_no "], "intent": ["flight_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u5b9a \u662f\u67d0\u67d0\u67d0\u548c\u67d0\u67d0\u67d0\u5468\u4e00\u65e9\u4e0a10\u70b9\u51fa\u5934\u7684\u673a\u7968\u5427\uff0c\u8f9b\u82e6 \u5317\u4eac\u53bb\u6b66\u6c49", "entities_data": {"from_time_period": "\u65e9\u4e0a", "passenger": "['\u67d0\u67d0\u67d0'", "from_date": "\u5468\u4e00", "from_place": "\u5317\u4eac", "to_place": "\u6b66\u6c49"}}
+
+{"intent": ["ok"], "usersay": "\t\u6211\u53d1\u7ed9\u4ed6\u4eec"}
+
+{"intent": ["flight_book"], "usersay": "\t\u5728\u5417\uff1f"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u5b9a\u5f2022\u53f7\u4e0a\u6d77\u8fd4\u56de\u5317\u4eac\u7684\u673a\u7968\uff0c\u8c22\u8c22\uff0c\u8fd9\u8d9f", "entities_data": {"passenger": "\u6211", "from_date": "22\u53f7", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\t\u621120\u53f7\u4e0b\u5348\u4ece\u5e7f\u5dde\u5230\u5317\u4eac", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "20\u53f7", "from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["idcard_no "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["from_date", "from_time_period", "ticket_book_type"], "intent": ["flight_book"], "usersay": "\t20\u53f7\u4e0b\u5348\u56db\u70b9\u5de6\u53f3\u5427\uff0c\u5927\u98de\u673a", "entities_data": {"from_time_period": "\u4e0b\u5348\u56db\u70b9\u5de6\u53f3", "from_date": "20\u53f7", "ticket_book_type": "\u5927\u98de\u673a"}}
+
+{"intent": ["ok"], "usersay": "\t\u6069"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_place", "to_place"], "intent": ["flight_book"], "usersay": "\u4f60\u597d\uff0c\u6211\u5317\u4eac\u56de\u5e7f\u5dde\u7684\u673a\u7968\u4e70\u4e86\u4e48\uff1f", "entities_data": {"passenger": "\u6211", "from_place": "\u5317\u4eac", "to_place": "\u5e7f\u5dde"}}
+
+{"entities": ["from_date "], "intent": ["flight_book"], "usersay": "\t24\u53f7", "entities_data": {"from_date": "24\u53f7"}}
+
+{"entities": ["from_time "], "intent": ["flight_book"], "usersay": "\u6211\u4e24\u70b9\u534a\uff0c\u4f60\u95ee\u67d0\u67d0\u67d0\u5427", "entities_data": {"from_time": "\u4e24\u70b9\u534a"}}
+
+{"intent": ["none"], "usersay": "\t\u5662\uff0c\u90a3\u8ddf\u4ed6\u4e00\u8d77\u5427"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["from_date", "from_place", "to_place", "idcard_no "], "intent": ["flight_book"], "usersay": "\t18\u53f7\u4ece\u4e0a\u6d77\u56de\u4eac\u8ff0\u804c\u3002*****", "entities_data": {"from_date": "18\u53f7", "idcard_no": "*****", "from_place": "\u4e0a\u6d77", "to_place": "\u4eac"}}
+
+{"intent": ["flight_book"], "usersay": "\t\u8ba2\u665a\u4e0a\u540e\u5929\u516d\u70b9\u5de6\u53f3\u7684\u5427"}
+
+{"intent": ["yes"], "usersay": "\t\u5bf9\u7684"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place", "from_place", "idcard_no "], "intent": ["flight_book"], "usersay": "\u6211\u8981\u5b9a\u4eca\u5929\u665a\u4e0a\u5f97\u7968\u5317\u4eac\u5230\u4e0a\u6d77\uff0c\u8eab\u4efd\u4fe1\u606f*****", "entities_data": {"passenger": "\u6211", "from_place": "\u5317\u4eac", "from_time_period": "\u665a\u4e0a", "from_date": "\u4eca\u5929", "idcard_no": "*****", "to_place": "\u4e0a\u6d77"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["passenger", "from_place", "to_place", "ticket_type", "from_date "], "intent": ["flight_book"], "usersay": "\u6211\u4e0a\u6d77\u56de\u5317\u4eac\u7684\u8fd4\u7a0b\t\u7968\u5e2e\u5b9a\u4e00\u4e0b\u5457 22\u53f7\u7684", "entities_data": {"ticket_type": "\u8fd4\u7a0b", "passenger": "\u6211", "from_date": "22\u53f7", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger", "idcard_no", "from_date", "airline", "flight", "from_place", "from_time(", "from_terminal_building)", "to_place", "to_time(", "to_terminal_building)", "ticket_no "], "intent": ["flight_book"], "usersay": "\t\u67d0\u67d0\u67d0 *****\uff0c\u60a8\u597d\uff011\u670822\u65e5 \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a\u516c\u53f8 MU5129 \u4e0a\u6d77\u6d66\u4e1c12:45(T1\u53f7\u822a\u7ad9\u697c)\u8d77\u98de-\u5317\u4eac15:10\u5230\u8fbe(T2\u53f7\u822a\u7ad9\u697c)\uff0c\u5df2\u51fa\u7968  \u7968\u53f7\uff1a7811270209736 \u795d\u65c5\u9014\u6109\u5feb\uff01", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "flight": "MU5129", "from_place": "\u4e0a\u6d77\u6d66\u4e1c", "ticket_no": "7811270209736", "(from_terminal_building": "T1)", "from_date": "1\u670822\u65e5", "idcard_no": "*****", "airline": "\u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a\u516c\u53f8", "to_time": "15", "to_place": "\u5317\u4eac", "(to_terminal_building": "T2)", "from_time": "12"}}
+
+{"entities": ["from_date", "from_place", "to_place", "passenger "], "intent": ["flight_book"], "usersay": "\u540e\u5929\u5317\u4eac\u5230\u6b66\u6c49\u7684\u673a\u7968\u5e2e\u6211\u9876\u4e00\u4e0b\u5427\uff0c\u8c22\u8c22\u5566", "entities_data": {"passenger": "\u6211", "from_date": "\u540e\u5929", "from_place": "\u5317\u4eac", "to_place": "\u6b66\u6c49"}}
+
+{"entities": ["idcard_no "], "intent": ["flight_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["thanks"], "usersay": "\u8c22\u4e86"}
+
+{"entities": ["from_date", "from_time_period", "from_place", "from_place ", "to_place "], "intent": ["flight_book"], "usersay": "\u660e\u5929\u4e0a\u534810\u70b9\u534a\u7684\u98de\u673a\u6b66\u6c49\u5230\u5317\u4eac", "entities_data": {"from_time_period": "\u4e0a\u5348", "from_date": "\u660e\u5929", "from_place": "\u6b66\u6c49", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["passenger "], "intent": ["flight_book"], "usersay": "\u8ba2\u5b8c\u4e86\u628a\u4fe1\u606f\u53d1\u6211\u4e00\u4e0b\u54c8", "entities_data": {"passenger": "\u6211"}}
+
+{"intent": ["thanks"], "usersay": "\t\u8f9b\u82e6\uff0c\u8c22\u4e86"}
+
+{"entities": ["idcard_no", "passenger", "from_date", "from_time", "train_type", "to_place", "from_place "], "intent": ["train_book"], "usersay": "\t*****  \u67d0\u67d0\u67d0  \u4eca\u5929\u4e0b\u5348\u4e24\u70b9\u9ad8\u94c1\u53bb\u90d1\u5dde,\u5317\u4eac\u51fa\u53d1", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "train_type": "\u9ad8\u94c1", "from_date": "\u4eca\u5929", "idcard_no": "*****", "to_place": "\u90d1\u5dde", "from_time": "\u4e0b\u5348\u4e24\u70b9"}}
+
+{"intent": ["yes"], "usersay": "\t\u55ef"}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u4e86"}
+
+{"entities": ["passenger", "from_date", "to_place", "from_place", "train_no"], "intent": ["train_book"], "usersay": "\u4f60\u597d\uff0c\u6211\u660e\u5929\u56de\u4eac\uff0c\u9ebb\u70e6\u7ed9\u6211\u5b9a\u4e00\u4e0b\u660e\u5929\u4ece\u90d1\u5dde\u51fa\u53d1\u7684g510\u6b21", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "train_no": "g510", "from_place": "\u90d1\u5dde", "to_place": "\u4eac"}}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "train_type", "train_no"], "intent": ["train_book"], "usersay": "\u4f60\u597d\uff0c\u9ebb\u70e6\u7ed9\u6211\u8ba2\u4e00\u5f20\u660e\u5929\u676d\u5dde\u5230\u5317\u4eac\u7684\u9ad8\u94c1\uff0c\u6211\u51fa\u5dee\u56de\u5317\u4eac\u660e\u5929\u7684G32", "entities_data": {"passenger": "\u6211", "from_place": "\u676d\u5dde", "train_no": "G32", "train_type": "\u9ad8\u94c1", "from_date": "\u660e\u5929", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["none"], "usersay": "\t\u8f66\u6b21\u65f6\u95f4\u6ca1\u95ee\u9898\u5427\uff1f"}
+
+{"entities": ["from_date", "passenger", "from_place", "to_place\uff0ctrain_no "], "intent": ["train_book"], "usersay": "\u4f60\u597d\uff0c\u660e\u5929\u6211\u8981\u4ece\u5317\u4eac\u53bb\u90d1\u5dde\u51fa\u5dee\u8fdb\u884c\u84dd\u4fe1\u4e8c\u6b21\u90e8\u7f72\uff0c\u8bf7\u7ed9\u6211\u5b9a\u4e00\u4e0bG38\u8f66\u6b21\uff0c\u8c22\u8c22\uff01", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "train_no": "G38", "from_place": "\u5317\u4eac", "to_place": "\u90d1\u5dde"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "train_no "], "intent": ["train_book"], "usersay": "\u7ed9\u6211\u5b9a\u4e00\u4e0b\u660e\u5929\u7684G508", "entities_data": {"passenger": "\u6211", "from_date": "\u660e\u5929", "train_no": "G508"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u9ebb\u70e6\u8ba2\u6211\u8ddf\u67d0\u67d0\u67d0\u660e\u5929\u4e00\u8d77\u8d70\u7684\u7968\u5427 \u8c22\u8c22\u54c8 \u4ece\u5357\u4eac\u5230\u5317\u4eac", "entities_data": {"passenger": "['\u6211'", "from_date": "\u660e\u5929", "from_place": "\u5357\u4eac", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["idcard_no "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u8eab\u4efd\u8bc1\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["yes"], "usersay": "\t\u662f\u7684"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684 \u8c22\u8c22\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time_period", "idcard_no "], "intent": ["flight_book"], "usersay": "\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e00\u5f208\u53f7\u5317\u4eac\u53bb\u53a6\u95e8\u7684\u673a\u7968\uff0c\u5c3d\u91cf\u662f\u665a\u4e0a\u5427\uff0c\u8c22\u8c22\u3002\u6211\u8eab\u4efd\u8bc1*****", "entities_data": {"passenger": "\u6211", "from_place": "\u5317\u4eac", "from_time_period": "\u665a\u4e0a", "from_date": "8\u53f7", "idcard_no": "*****", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["idcard_no", "passenger", "from_place", "to_place", "from_date "], "intent": ["flight_book"], "usersay": "\t***** \u6211\u4ece\u5357\u4eac\u5230\u5317\u4eac 18\u65e5\u51fa\u53d1 ", "entities_data": {"passenger": "\u6211", "from_date": "18\u65e5", "idcard_no": "*****", "from_place": "\u5357\u4eac", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["from_date "], "intent": ["flight_book"], "usersay": "\t\u662f\u7684\u56de\u5357\u4eac  1\u670824\u65e5\u8fd4\u7a0b", "entities_data": {"from_date": "1\u670824\u65e5"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["passenger", "from_date", "to_time_period", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u9ebb\u70e6\u7ed9\u6211\u8ba2\u4e00\u4e0b2\u67087\u53f7\u665a\u4e0a\u5230\u6606\u660e\u7684\u7968", "entities_data": {"passenger": "\u6211", "from_date": "2\u67087\u53f7", "to_place": "\u6606\u660e", "to_time_period": "\u665a\u4e0a"}}
+
+{"entities": ["from_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u8ba2\u4ece\u676d\u5dde\u5230\u6606\u660e\u7684\uff0c\u6211\u660e\u5929\u5728\u676d\u5dde", "entities_data": {"from_place": "\u676d\u5dde"}}
+
+{"intent": ["none"], "usersay": "\t\u6211\u770b\u4e00\u4e0b"}
+
+{"entities": ["from_time "], "intent": ["flight_book"], "usersay": "\t\u5c3d\u91cf\u8ba26\u70b955\u7684\uff0c\u6211\u6015\u8c08\u5ba2\u6237\u8d76\u4e0d\u53ca", "entities_data": {"from_time": "6\u70b955"}}
+
+{"intent": ["thanks"], "usersay": "\u597d\u7684\uff0c3q"}
+
+{"entities": ["from_date", "from_time_period", "passenger", "from_place", "to_place", "train_type "], "intent": ["train_book"], "usersay": "\u4e0b\u5468\u4e00\u665a\u4e0a\u6211\u548c\u67d0\u67d0\u67d0\u67d0\u67d0\u67d0\u706b\u8f66\u5317\u4eac\u53bb\u978d\u5c71  \u63d0\u524d\u5e2e\u6211\u4eec\u5b9a\u5367\u94fa\u7968\u5427   \u6216\u8005\u4e0d\u77e5\u6709\u9ad8\u94c1\u5426\uff1f", "entities_data": {"passenger": "['\u6211'", "'\u67d0\u67d0\u67d0'": "", "from_place": "\u5317\u4eac", "train_type": "\u5367\u94fa", "from_time_period": "\u665a\u4e0a", "from_date": "\u4e0b\u5468\u4e00", "to_place": "\u978d\u5c71"}}
+
+{"entities": ["to_date", "to_time_period", "to_place "], "intent": ["train_book"], "usersay": "\u5468\u4e8c\u4e0b\u53481\u70b9\u5de6\u53f3\u5728\u978d\u5c71\u5f00\u4f1a\uff01", "entities_data": {"to_time_period": "\u4e0b\u53481\u70b9", "to_date": "\u5468\u4e8c", "to_place": "\u978d\u5c71"}}
+
+{"entities": ["to_time_period "], "intent": ["train_book"], "usersay": "\t\u5bf9  10\u65e5\u65e9\u4e0a\u6216\u4e0a\u5348\u5230\u5c31\u53ef", "entities_data": {"to_time_period": "10\u65e5\u65e9\u4e0a\u6216\u5546\u52a1"}}
+
+{"entities": ["idcard_no", "passenger "], "intent": ["train_book"], "usersay": "\t*****  \u67d0\u67d0\u67d0", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"entities": ["passenger", "from_date", "from_time_period", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u8ba2\u4e0b\u4eca\u59294\u3001 5\u70b9\u949f\u957f\u6625\u56de\u4eac\u673a\u7968\uff0c\u53ea\u6211\u81ea\u5df1\uff01\u67d0\u67d0\u67d0\u4e0e\u67d0\u67d0\u67d0\u660e\u5929\u518d\u8bf4\uff01", "entities_data": {"from_time_period": "4\u30015\u70b9\u949f", "passenger": "\u6211", "from_date": "\u4eca\u5929", "from_place": "\u957f\u6625", "to_place": "\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684"}
+
+{"entities": ["from_date", "airline", "flight", "aircraft", "from_time", "from_airport", "from_terminal_building", "to_time", "to_airport "], "intent": ["flight_book"], "usersay": "1\u67088\u53f7 \u4e2d\u56fd\u56fd\u822aCA1101\u6ce2\u97f3737-800(\u4e2d\u578b)19:25\u9996\u90fd\u56fd\u9645\u673a\u573aT320:50\u767d\u5854\u56fd\u9645\u673a\u573a", "entities_data": {"to_airport": "\u767d\u5854\u56fd\u9645\u673a\u573a", "flight": "CA1101", "from_date": "1\u67088\u53f7 ", "aircraft": "\u6ce2\u97f3737-800(\u4e2d\u578b)", "from_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573a", "airline": "\u4e2d\u56fd\u56fd\u822a", "to_time": "20", "from_terminal_building": "T3", "from_time": "19"}}
+
+{"entities": ["idcard_no "], "intent": ["flight_book"], "usersay": "\t\u5e2e\u6211\u8ba2\u8fd9\u73ed\u98de\u673a\uff0c\u8eab\u4efd\u8bc1 *****", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t1\u67088\u53f7 \u5317\u4eac--\u547c\u548c\u6d69\u7279", "entities_data": {"from_date": "1\u67088\u53f7", "from_place": "\u5317\u4eac", "to_place": "\u547c\u548c\u6d69\u7279"}}
+
+{"intent": ["none"], "usersay": "\u63d0\u524d\u4e00\u4e2a\u6216\u8005\u5ef6\u540e\u4e00\u4e2a\u73ed\u6b21\u5427\uff0c\u53ef\u884c"}
+
+{"intent": ["none"], "usersay": "\t\u63d0\u524d\u5427\uff0c\u521a\u624d\u770b\u8fd8590"}
+
+{"intent": ["thanks"], "usersay": "\t\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u7ed9\u67d0\u67d0\u67d0\u5b9a\u660e\u5929\u4e5d\u70b9\u4e8c\u5341\u90a3\u73ed\u547c\u548c\u6d69\u7279\u5230\u5317\u4eac\u7684\uff0c\u8c22\u8c22", "entities_data": {"passenger": "\u67d0\u67d0\u67d0", "from_date": "\u660e\u5929", "from_time": "\u4e5d\u70b9\u4e8c\u5341", "from_place": "\u547c\u548c\u6d69\u7279", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_time_period", "to_place "], "intent": ["flight_book"], "usersay": "\u6211\u660e\u5929\u4e2d\u5348\u98de\u547c\u548c\u6d69\u7279", "entities_data": {"from_time_period": "\u4e2d\u5348", "passenger": "\u6211", "from_date": "\u660e\u5929", "to_place": "\u547c\u548c\u6d69\u7279"}}
+
+{"entities": ["flight", "from_date", "from_time_period", "from_place", "to_place  "], "intent": ["flight_book"], "usersay": "\tCA1111 \u660e\u5929\u4e0a\u5348\u5317\u4eac-\u547c\u548c\u6d69\u7279", "entities_data": {"from_time_period": "\u5546\u52a1", "from_date": "\u660e\u5929", "flight": "CA1111", "from_place": "\u5317\u4eac", "to_place": "\u547c\u548c\u6d69\u7279"}}
+
+{"entities": ["passenger", "idcard_no "], "intent": ["flight_book"], "usersay": "2\u67d0\u67d0\u67d0*****  \u67d0\u67d0\u67d0*****", "entities_data": {"passenger": "['\u67d0\u67d0\u67d0'", "idcard_no": "['*****'"}}
+
+{"entities": ["from_date", "from_time", "to_place "], "intent": ["flight_book"], "usersay": "\t\u660e\u65e97\u70b9\u98de\u4e0a\u6d77", "entities_data": {"from_date": "\u660e", "from_time": "\u660e\u65e9\u4e03\u70b9", "to_place": "\u4e0a\u6d77"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u67d0\u67d0\u67d0\u8ba9\u6211\u660e\u65e9\u98de\u8fc7\u53bb", "entities_data": {"from_time_period": "\u660e\u65e9"}}
+
+{"entities": ["to_time "], "intent": ["flight_book"], "usersay": "\t\u6211\u548c\u67d0\u67d0\u67d0\u898110\u70b9\u534a\u548c\u5ba2\u6237\u5f00\u4f1a", "entities_data": {"to_time": "10\u70b9\u534a"}}
+
+{"entities": ["passenger "], "intent": ["flight_book"], "usersay": "\t\u5c31\u8fd9\u4e2a\u5427\uff0c\u6211\u548c\u67d0\u67d0\u67d0", "entities_data": {"passenger": "['\u6211'"}}
+
+{"entities": ["passenger", "from_date", "flight", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\u7ed9\u6211\u8ba2\u4e00\u4e0b\u4eca\u5929\u7684\u8fd9\u4e2a\u822a\u73ed MU5119 ,\u4e0a\u6d77\u5230\u5317\u4eac", "entities_data": {"passenger": "\u6211", "from_date": "\u4eca\u5929", "flight": "MU5119", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["flight_book"], "usersay": "\t\u53ea\u6709\u6211"}
+
+{"intent": ["ok"], "usersay": "\tok"}
+
+{"entities": ["passenger", "from_date", "to_place", "from_time_period", "idcard_no "], "intent": ["flight_book"], "usersay": "\u4f60\u597d\uff0c\u9ebb\u70e6\u5e2e\u6211\u8ba2\u4e00\u5f208\u53f7\u53bb\u53a6\u95e8\u7684\u673a\u7968\uff0c\u5c3d\u91cf\u662f\u665a\u4e0a\u5427\uff0c\u8c22\u8c22\u3002\u6211\u8eab\u4efd\u8bc1*****", "entities_data": {"from_time_period": "\u665a\u4e0a", "passenger": "\u6211", "from_date": "8\u53f7", "idcard_no": "*****", "to_place": "\u53a6\u95e8"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "\t\u5bf9\u7684\uff0c\u8981\u665a\u4e0a\u7684", "entities_data": {"from_time_period": "\u665a\u4e0a\u7684"}}
+
+{"entities": ["from_time "], "intent": ["flight_book"], "usersay": "\t20\u5427", "entities_data": {"from_time": "20\u70b9"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u611f\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u6211\u5341\u516b\u53f7\u548c\u67d0\u67d0\u67d0\u3001\u67d0\u67d0\u67d0\u4ece\u5317\u4eac\u56de\u957f\u6625\u3002", "entities_data": {"passenger": "['\u6211'", "from_date": "\u5341\u516b\u53f7", "'\u67d0\u67d0\u67d0'": "", "from_place": "\u5317\u4eac", "to_place": "\u957f\u6625"}}
+
+{"entities": ["idcard_no "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["none"], "usersay": "\t\u56de\u957f\u6625\u7684\u7968\u5c31\u884c"}
+
+{"intent": ["thanks"], "usersay": "\t\u591a\u8c22"}
+
+{"entities": ["to_place "], "intent": ["flight_book"], "usersay": "\t\u53bb\u5317\u4eac\u7684\u7968\u4f60\u8d1f\u8d23\u8ba2\u4e48\uff1f", "entities_data": {"to_place": "\u5317\u4eac"}}
+
+{"entities": ["from_date", "to_place", "from_time_period"], "intent": ["flight_book"], "usersay": "\t\u9ebb\u70e6\u8ba2\u4e0b26\u53f7\u53bb\u5317\u4eac\uff0c29\u53f7\u56de\u957f\u6625\u7684\u98de\u673a\u7968\uff0c\u53ea\u8981\u90fd\u662f\u4e0b\u5348\u7684\u5c31\u884c\uff0c\u6211\u628a\u8f66\u6254\u673a\u573a\u3002", "entities_data": {"from_time_period": "\u4e0b\u5348", "from_date": "['26\u53f7'", "to_place": "['\u5317\u4eac'"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d"}
+
+{"entities": ["passenger", "from_place", "to_place", "flight", "from_date "], "intent": ["flight_book"], "usersay": "\u5e2e\u6211\u5b9a\u8fd9\u4e2a\u673a\u7968\uff0c\u5e7f\u5dde\u5230\u5317\u4eac\uff0cCZ3999\u8c22\u8c22\u30021\u670818\u65e5", "entities_data": {"passenger": "\u6211", "from_date": "1\u670818\u65e5", "flight": "CZ3999", "from_place": "\u5e7f\u5dde", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["idcard_no "], "intent": ["flight_book"], "usersay": "\t\t*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6069\uff0c\u8c22\u8c22"}
+
+{"intent": ["yes"], "usersay": "\t\u6069"}
+
+{"intent": ["none"], "usersay": "\t\u51e0\u53f7\u56de\u6765\uff1f"}
+
+{"entities": ["passenger", "from_date", "from_time", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u6211\u548c\u67d0\u67d0\u67d03\u67081\u65e5\u6700\u597d\u8ba23\u70b930\u7684\u822a\u73ed\u98de\u673a\u5317\u4eac\u98de\u5e7f\u5dde\uff0c\u8c22\u8c22\u3002", "entities_data": {"passenger": "['\u6211'", "from_date": "3\u67081\u65e5", "from_time": "3\u70b920", "from_place": "\u5317\u4eac", "to_place": "\u5e7f\u5dde"}}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place", "from_time_period "], "intent": ["flight_book"], "usersay": "\u5144\u5f1f\u5e2e\u6211\u8ba2\u4e0b\u7968\u54c8\uff0c\u611f\u8c22\u3002\u540e\u5929\u91cd\u5e86\u5230\u5317\u4eac\u98de\u673a\u54c8\u3002\u6700\u597d\u662f\u4e0b\u5348\u7684\u5427\u3002", "entities_data": {"from_time_period": "\u4e0b\u5348", "passenger": "\u6211", "from_date": "\u540e\u5929", "from_place": "\u91cd\u5e86", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["idcard_no"], "intent": ["flight_book"], "usersay": "\t*****\u67d0\u67d0\u67d0", "entities_data": {"idcard_no": "*****"}}
+
+{"entities": ["to_time_period "], "intent": ["flight_book"], "usersay": "\t\u516d\u70b9\u5de6\u53f3\u5230\u7684\u5427\uff0c\u8c22\u8c22", "entities_data": {"to_time_period": "\u516d\u70b9\u5de6\u53f3"}}
+
+{"intent": ["thanks"], "usersay": "\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intent": ["flight_book"], "usersay": "\t\u8fd4\u7a0b\u56e0\u63a5\u8fd1\u8fc7\u5e74\uff0c\u8ba1\u5212\u76f4\u63a5\u56de\u8001\u5bb6\u3002\u5e2e\u6211\u4e701\u670824\u53f7\u5317\u4eac\u5230\u94f6\u5ddd\u7684\u673a\u7968\u5427\uff0c\u8c22\u8c22\u3002", "entities_data": {"passenger": "\u6211", "from_date": "1\u670824\u53f7", "from_place": "\u5317\u4eac", "to_place": "\u94f6\u5ddd"}}
+
+{"intent": ["none"], "usersay": "\t\u53ef\u4ee5\u5427\uff1f\u5144\u5f1f"}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "to_time_period", "to_place", "from_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u67d0\u67d0\u67d0\uff0c\u5e2e\u6211\u4e70\u4e2a26\u53f7\u4e0b\u5348\u516d\u70b9\u5de6\u53f3\u5230\u5317\u4eac\u7684\u5427\uff0c\u8c22\u8c22\u3002\u91cd\u5e86\u51fa\u53d1", "entities_data": {"passenger": "\u6211", "from_date": "26\u53f7", "from_place": "\u91cd\u5e86", "to_time_period": "\u4e0b\u5348\u516d\u70b9\u5de6\u53f3"}}
+
+{"entities": ["ticket_book_type "], "intent": ["flight_book"], "usersay": "\u6211\u8fd9\u91cc\u6ca1\u9ad8\u94c1\uff0c\u5e2e\u6211\u76f4\u63a5\u5b9a\u673a\u7968\u5427\uff0c\u8c22\u8c22\u3002", "entities_data": {"ticket_book_type": "\u673a\u7968"}}
+
+{"intent": ["thanks"], "usersay": "\t\u5bf9\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["airline "], "intent": ["flight_book"], "usersay": "\t\u5c31\u5357\u822a\u7684\u90a3\u8d9f\u5427 \u8c22\u8c22", "entities_data": {"airline": "\u5357\u822a"}}
+
+{"entities": ["from_date "], "intent": ["flight_book"], "usersay": "\t\u597d\u7684\uff0c3\u67081\u53f7", "entities_data": {"from_date": "3\u67081\u65e5"}}
+
+{"intent": ["ok"], "usersay": "\t\u6536\u5230"}
+
+{"entities": ["from_date", "from_time_period"], "intent": ["flight_book"], "usersay": "\t1\u53f7\u4e2d\u5348\u7684\u5427\uff0c\u8c22\u8c22", "entities_data": {"from_time_period": "\u4e2d\u5348", "from_date": "1\u53f7"}}
+
+{"entities": ["from_time "], "intent": ["flight_book"], "usersay": "\t\u90a3\u5c313.20\u5427", "entities_data": {"from_time": "3.20"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22"}
+
+{"entities": ["passenger", "from_date", "from_place", "to_place "], "intents": ["flight_book", "train_book"], "intent": ["ticket_book"], "usersay": "\u5e2e\u6211\u5b9a12\u53f7\u4e0b\u5348\u957f\u6625\u5230\u5317\u4eac\u7684\u7968", "entities_data": {"passenger": "\u6211", "from_date": "12\u53f7", "from_place": "\u957f\u6625", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["none"], "usersay": "\u706b\u8f66\u7968\u8ddf\u673a\u7968\u5dee\u8ddd\u5f88\u5927\u4e48\uff1f[\u5c34\u5c2c]"}
+
+{"entities": ["from_place", "to_place", "from_time", "train_type  "], "intent": ["train_book"], "usersay": "\t\u5409\u6797\u2014\u5317\u4eac \u4e0a\u534810\uff1a25\u90a3\u4e2a\u52a8\u8f66\u5427", "entities_data": {"train_type": "\u52a8\u8f66", "from_time": "10", "from_place": "\u5409\u6797", "to_place": "\u5317\u4eac"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d"}
+
+{"entities": ["person", "map_sort "], "intent": ["hotel_book"], "usersay": "\t\u5e2e\u6211\u5b9a\u4e2a\u9152\u5e97\uff0c\u79bb\u6211\u4f4f\u5730\u65b9\u8fd1\u5c31\u884c\uff0c\u522b\u7684\u8981\u6c42\u90fd\u6ca1\u6709", "entities_data": {"person": "\u6211", "map_sort": "\u79bb\u6211\u4f4f\u5730\u65b9\u8fd1"}}
+
+{"entities": ["person_amount", "checkin_date "], "intent": ["hotel_book"], "usersay": "\u4e00\u4e2a\u4eba 11\u670825\u65e5\u5165\u4f4f", "entities_data": {"checkin_date": "11\u670825\u65e5", "person_amount": "\u4e00\u4e2a\u4eba"}}
+
+{"entities": ["person", "person_amount", "checkin_date "], "intent": ["hotel_book"], "usersay": "\t\u5e2e\u6211\u548c\u67d0\u67d0\u67d0\u5b9a\u8fd9\u4e2a\u5730\u5740\u9644\u8fd1\u7684\u9152\u5e97\u5427 5\u670824\u65e5\u5165\u4f4f", "entities_data": {"checkin_date": "5\u670824\u65e5", "person": "['\u6211'", "person_amount": "2"}}
+
+{"entities": ["map_sort", "room_type "], "intent": ["hotel_book"], "usersay": "\t\u9152\u5e97\u5e2e\u6211\u5b9a\u597d\uff0c\u6761\u4ef6\u7a0d\u597d\u70b9\u7684\uff01\u6700\u597d\u5e26\u65e9\u665a\u9910", "entities_data": {"map_sort": "", "room_type": ""}}
+
+{"entities": ["persion_amount", "room_amount", "room_type "], "intent": ["hotel_book"], "usersay": "\t\u6211\u4eec\u4e24\u4e2a\u5b9a2\u4e2a\u5927\u5e8a\u623f", "entities_data": {"room_amount": "2\u4e2a", "room_type": "\u5927\u5e8a\u623f", "persion_amount": "\u4e24\u4e2a"}}
+
+{"entities": ["day_amount "], "intent": ["hotel_book"], "usersay": "\t\u4e00\u665a", "entities_data": {"day_amount": "\u4e00\u665a\u4e0a"}}
+
+{"intent": ["ok"], "usersay": "\t\t\u6536\u5230"}
+
+{"entities": ["checkin_date", "map_sort "], "intent": ["hotel_book"], "usersay": "11\u670826\u65e5 \u5728\u76ee\u7684\u5730\u673a\u573a\u9644\u8fd1\u8ba2\u7740\u9152\u5e97\u4e86\u4e48\uff1f", "entities_data": {"checkin_date": "11\u670826\u65e5", "map_sort": "\u76ee\u7684\u5730\u673a\u573a\u9644\u8fd1"}}
+
+{"entities": ["map_sort "], "intent": ["hotel_book"], "usersay": "\t\u4f60\u5148\u5e2e\u6211\u9876\u4e00\u4e2a\u6700\u8fd1\u7684", "entities_data": {"map_sort": "\u6700\u8fd1\u7684"}}
+
+{"entities": ["room_type", "day_amount "], "intent": ["hotel_book"], "usersay": "\t\u5b9a\u4e2a\u6807\u95f4\u5427\uff0c\u4e00\u665a\u4e0a", "entities_data": {"day_amount": "", "room_type": ""}}
+
+{"intent": ["ok"], "usersay": "\t\u597d"}
+
+{"entities": ["venue_accomodation_title", "hotel_site", "hotel_tel "], "intent": ["hotel_book"], "usersay": "\u5357\u5b81\u51ef\u5bbe\u7687\u51a0\u5927\u9152\u5e97\u3002\u5730\u5740\uff1a\u6c11\u65cf\u5927\u905398-1\uff0c\u8fd1\u4e94\u8c61\u5e7f\u573a\uff08\u5357\u5b81\u4e66\u5e97\uff09\uff0cT:0771-5813600", "entities_data": {"hotel_tel": "0771-5813600", "hotel_site": "\u6c11\u65cf\u5927\u905398-1\uff0c\u8fd1\u4e94\u8c61\u5e7f\u573a\uff08\u5357\u5b81\u4e66\u5e97\uff09", "venue_accomodation_title": "\u5357\u5b81\u51ef\u5bbe\u7687\u51a0\u5927\u9152\u5e97"}}
+
+{"entities": ["person", "checkin_date", "day_amount", "checkout_date "], "intent": ["hotel_book"], "usersay": "\u5e2e\u67d0\u67d0\u67d0 \u9884\u5b9a20\u300121\u300122\u53f7\u4e09\u665a", "entities_data": {"checkin_date": "20", "person": "\u67d0\u67d0\u67d0", "checkout_date": "22\u53f7", "day_amount": "\u4e09\u665a"}}
+
+{"entities": ["passenger", "from_date", "to_place", "from_time_period "], "intent": ["flight_book"], "usersay": "\u8fd8\u6709\u67d0\u67d0\u67d020\u53f7\u5230\u5357\u5b81\u7684\u673a\u7968\uff0c\u4e2d\u534811\u70b9\u591a\u7684\u5c31\u53ef\u4ee5\uff0c\u4f60\u548c\u4ed6\u786e\u8ba4\u4e00\u4e0b\uff0c\u8c22\u8c22", "entities_data": {"from_time_period": "\u4e2d\u534811\u70b9\u591a", "passenger": "\u67d0\u67d0\u67d0", "from_date": "20\u53f7", "to_place": "\u5357\u5b81"}}
+
+{"entities": ["from_time_period "], "intent": ["flight_book"], "usersay": "11\u70b9\u591a\u8d77\u98de\u90a3\u4e00\u73ed", "entities_data": {"from_time_period": "11\u70b9\u591a"}}
+
+{"intent": ["none"], "usersay": "\t\u6ca1\u6709\u4e86"}
+
+{"entities": ["person", "checkin_date", "day_amount", "checkout_date", "map_sort "], "intent": ["hotel_book"], "usersay": "\t\u5e2e\u6211\u8ba210\u53f7\u523012\u53f7\u7684\u9152\u5e97\uff0c\u5728\u4f1a\u5c55\u4e2d\u5fc3\u9644\u8fd1\u7684", "entities_data": {"checkin_date": "10\u53f7", "person": "\u6211", "checkout_date": "12\u53f7", "day_amount": "3\u5929", "map_sort": "\u4f1a\u5c55\u4e2d\u5fc3\u9644\u8fd1\u7684"}}
+
+{"entities": ["room_amount", "room_type "], "intent": ["hotel_book"], "usersay": "\t\u5b9a\u4e09\u95f4\u6807\u95f4\u5c31\u884c\uff0c\u5176\u4ed6\u6ca1\u6709\u8981\u6c42", "entities_data": {"room_amount": "\u4e09\u95f4", "room_type": "\u6807\u95f4"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684\uff0c\u8c22\u8c22\u3002"}
+
+{"entities": ["room_type", "venue_accomodation_title", "hotel_site", "hotel_distance", "map_site", "room_price", "hotel_tel "], "intent": ["hotel_book"], "usersay": "\u7ecf\u6d4e\u578b\uff1a \u683c\u6797\u8c6a\u6cf0\u9152\u5e97\uff08\u4e0a\u6d77\u5ef6\u5b89\u4e2d\u8def\u5e97\uff09\uff1a\uff08\u96f6\u552e\u4ef7\u00b1359\u5143/\u95f4\u8d77\uff09\uff0c\u79bb\u4f1a\u573a361\u7c73\uff0c \u4e0a\u6d77\u5e02\u9759\u5b89\u533a\u5ef6\u5b89\u4e2d\u8def1109\u53f7\u94f6\u6cf0\u697c \u8054\u7cfb\u7535\u8bdd\uff1a021-62497388", "entities_data": {"room_price": "\u00b1359\u5143/\u95f4", "venue_accomodation_title": "\u683c\u6797\u8c6a\u6cf0\u9152\u5e97\uff08\u4e0a\u6d77\u5ef6\u5b89\u4e2d\u8def\u5e97\uff09", "hotel_distance": "\u79bb\u4f1a\u573a361\u7c73", "hotel_tel": "021-62497388", "hotel_site": "\u4e0a\u6d77\u5e02\u9759\u5b89\u533a\u5ef6\u5b89\u4e2d\u8def1109\u53f7\u94f6\u6cf0\u697c", "room_type": "\u7ecf\u6d4e\u578b"}}
+
+{"entities": ["room_amount", "room_type", "checkin_date", "day_amount "], "intent": ["hotel_book"], "usersay": "\t\u5e2e\u5fd9\u9876\u4e00\u4e2a\u6807\u51c6\u95f4\uff0c11\u670825\u53f7\u548c26\u53f7\u4e24\u665a\u4e0a\uff0c\u8c22\u8c22", "entities_data": {"checkin_date": "11\u670825\u53f7", "day_amount": "\u4e24\u665a\u4e0a", "room_amount": "\u4e00\u4e2a", "room_type": "\u6807\u51c6\u95f4"}}
+
+{"entities": ["checkin_time_period", "checkin_date  "], "intent": ["hotel_book"], "usersay": "\t\u621125\u53f7\u665a\u4e0a\u4ece\u59cb\u53d1\u5730 \u8fc7\u53bb\uff0c\u53ef\u80fd\u4f1a\u665a\u4e00\u70b9\uff0c\u67d0\u67d0\u67d0 26\u5230", "entities_data": {"checkin_date": "", "checkin_time_period": "25\u53f7\u665a\u4e0a"}}
+
+{"intent": ["none"], "usersay": "\t\u53ea\u8981\u4e0d\u665a\u70b9\u5c31\u53ef\u4ee5"}
+
+{"intent": ["thanks"], "usersay": "\tok,\u591a\u8c22"}
+
+{"entities": ["map_sort "], "intent": ["hotel_book"], "usersay": "\u8679\u6865\t\u673a\u573a\u9644\u8fd1\u7ed9\u6211\u5b9a\u4e2a\u9152\u5e97\u5427", "entities_data": {"map_sort": "\u8679\u6865\u673a\u573a\u9644\u8fd1"}}
+
+{"entities": ["checkin_date", "person_amount", "room_type "], "intent": ["hotel_book"], "usersay": "12\u670816\u65e5\u5165\u4f4f\uff0c\u4e09\u4e2a\u4eba\uff0c\u5b9a\u5927\u5e8a\u623f\u5427", "entities_data": {"checkin_date": "12\u670816\u65e5", "person_amount": "\u4e09\u4e2a\u4eba", "room_type": "\u5927\u5e8a\u623f"}}
+
+{"entities": ["day_amount "], "intent": ["hotel_book"], "usersay": "\t\u4e00\u665a\u5c31\u597d", "entities_data": {"day_amount": "\u4e00\u665a"}}
+
+{"intent": ["none"], "usersay": "\t\u4e0d\u9700\u8981\uff0c\u8fd9\u4e9b\u5c31\u884c\u4e86"}
+
+{"intent": ["ok"], "usersay": "\t\t\u6536\u5230"}
+
+{"entities": ["map_sort", "checkin_date", "room_amount", "room_type", "day_amount "], "intent": ["hotel_book"], "usersay": "\u627e\u4e2a\u79bb\u5e02\u4e2d\u5fc3\u8fd1\u4e00\u70b9\u7684\u9152\u5e97\u5427\uff0c8\u67082\u65e5\u5165\u4f4f\uff0c2\u4e2a\u6807\u95f4\u4f4f\u4e00\u665a", "entities_data": {"checkin_date": "8\u67082\u65e5", "map_sort": "\u79bb\u5e02\u4e2d\u5fc3\u8fd1\u4e00\u70b9", "room_amount": "2\u4e2a", "day_amount": "\u4e00\u665a", "room_type": "\u6807\u95f4"}}
+
+{"intent": ["none"], "usersay": "\t\u4e0d\u9700\u8981\u4e86\uff0c\u8c22\u8c22\u3002"}
+
+{"intent": ["ok"], "usersay": "\t\u5466\u897f"}
+
+{"entities": ["person", "idcard_no "], "intent": ["hotel_book"], "usersay": "*****\t\u67d0\u67d0\u67d0", "entities_data": {"person": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"entities": ["checkin_date", "map_sort", "day_amount "], "intent": ["hotel_book"], "usersay": "31\u53f7\u5165\u4f4f\uff0c\u9152\u5e97\u5b9a\u5728\u4e16\u7eaa\u5927\u9053\u4e0a\u5427\uff0c\u4f4f\u4e09\u665a", "entities_data": {"checkin_date": "31\u53f7", "map_sort": "\u4e16\u7eaa\u5927\u9053\u4e0a", "day_amount": "\u4e09\u665a"}}
+
+{"entities": ["room_type "], "intent": ["hotel_book"], "usersay": "\t\u8ba2\u6807\u95f4\u5427", "entities_data": {"room_type": "\u6807\u95f4"}}
+
+{"intent": ["thanks"], "usersay": "\t\u6536\u5230\uff0c\u8c22\u8c22"}
+
+{"entities": ["person", "idcard_no "], "intent": ["hotel_book"], "usersay": "\t\u67d0\u67d0\u67d0  *****", "entities_data": {"person": "\u67d0\u67d0\u67d0", "idcard_no": "*****"}}
+
+{"intent": ["none"], "usersay": "\t\u9152\u5e97\u662f\u6211\u81ea\u5df1\u8ba2\u8fd8\u662f\u516c\u53f8\u8ba2\u5462\uff1f"}
+
+{"entities": ["venue_accomodation_title "], "intent": ["hotel_book"], "usersay": "\t\u9152\u5e97\u6211\u8ba2\u5982\u5bb6\u4e86\u53ef\u4ee5\u5417", "entities_data": {"venue_accomodation_title": "\u5982\u5bb6"}}
+
+{"entities": ["room_price "], "intent": ["hotel_book"], "usersay": "\t\u591a\u5c11\u94b1\u7684\u6807\u51c6\u554a \u4e0d\u8d85\u8fc7300\u5c31\u884c\u662f\u5427", "entities_data": {"room_price": "<300"}}
+
+{"intent": ["thanks"], "usersay": "\t\u597d\u7684 \u8c22\u8c22"}
+
+{"entities": ["from_place", "to_place", "from_date "], "intent": ["flight_book", "hotel_book"], "usersay": "\u4f60\u597d\uff0c\u4ece\u4e0a\u6d77\u8fc7\u6765\u5317\u4eac\u53c2\u52a0\u57f9\u8bad\uff0c\u8bf7\u5b9a\u4e00\u4e0b4\u670824\u65e5\u7684\u7968\u5427", "entities_data": {"from_date": "4\u670824\u65e5", "from_place": "\u4e0a\u6d77", "to_place": "\u5317\u4eac"}}
+
+{"entities": ["idcard_no "], "intent": ["flight_book"], "usersay": "\u8eab\u4efd\u8bc1\u53f7\uff1a*****", "entities_data": {"idcard_no": "*****"}}
+
+{"intent": ["ok"], "usersay": "\tOK"}
+
+{"entities": ["person", "checkin_time_period", "checkin_date", "day_amount "], "intent": ["hotel_book"], "usersay": "\t\u6211\u548c\u67d0\u67d0\u67d0\u665a\u4e0a\u6709\u4f4f\u7684\u5730\u513f\u5417\uff1f4\u670824\u65e5\u5f00\u59cb\u4f4f\u516d\u5929", "entities_data": {"checkin_date": "4\u670824\u65e5", "person": "[''\u6211", "checkin_time_period": "\u665a\u4e0a", "day_amount": "\u516d\u5929"}}
+
+{"entities": ["map_sort "], "intent": ["hotel_book"], "usersay": "\t\u79bb\u516c\u53f8\u8fd1\u70b9\u5c31\u884c", "entities_data": {"map_sort": "\u79bb\u516c\u53f8\u8fd1\u70b9"}}
+
+{"intent": ["ok"], "usersay": "\t\u597d\u7684\uff0c\u6211\u5468\u65e5\u665a\u4e0a\u5230"}
+
+{"entities": ["person "], "intent": ["hotel_book"], "usersay": "\u597d\u7684\uff0c\u8bf7\u5e2e\u6211\u8ba2\u5bbe\u9986\u5427", "entities_data": {"person": "\u6211"}}
+
+{"entities": ["checkin_date", "checkout_date", "day_amount "], "intent": ["hotel_book"], "usersay": "\t\u621127\u65e5360\u5e74\u4f1a\uff0c28\u84dd\u4fe1\u5e74\u4f1a\uff0c\u4f4f\u4e24\u665a\u7136\u540e\u9694\u5929\u5c31\u8d70\uff1f", "entities_data": {"checkin_date": "\\27\u65e5t checkout_date", "day_amount": "\u4e24\u665a"}}
+
+{"intent": ["thanks"], "usersay": "\u627e\u5230\u4e86\uff0c\t\u975e\u5e38\u8fd1\u597d\u8d5e"}
