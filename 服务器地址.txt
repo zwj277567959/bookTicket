@@ -1,0 +1,7 @@
+scp -P 800 /Users/zhaowenjun/PycharmProjects/bookTicket1/book.py root@101.201.150.169:/root
+weChatyoranGiss*()
+
+nohup python book.py &
+
+
+ps -efww|grep CMD |grep -v grep|cut -c 9-15|xargs kill -9
