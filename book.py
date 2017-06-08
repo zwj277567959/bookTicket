@@ -35,8 +35,6 @@ def bookhotel():
     append = request.args.get('append')
     fromDate = request.args.get('fromDate')
     toDate = request.args.get('toDate')
-    print city
-    print append
 
     try:
         display = Display(visible=0, size=(1024, 768))
@@ -55,18 +53,17 @@ def bookhotel():
         driver.find_element_by_tag_name('button').click()
         txt = get_item(driver.page_source)
         driver.find_element_by_class_name('next').click()
-        driver.close()
+        driver.quit()
         display.stop()
         return jsonify({'status': 200, 'data': txt})
     except Exception, e:
-        driver.close()
+        driver.quit()
         display.stop()
         return jsonify({'status': -1, 'error': e})
 
 @app.route('/bookFlight', methods=['GET'])
 def bookflight():
     isround = request.args.get('isround')
-    print isround
     fromCity = request.args.get('fromCity')
     toCity = request.args.get('toCity')
     toDate = request.args.get('toDate')
@@ -78,11 +75,14 @@ def bookflight():
         driver = webdriver.Chrome(chrome_options=chrome_options)
         driver.get('http://flights.ctrip.com/')
         if isround:
+            print ("1111111")
             driver.find_element_by_id('radio_D').click()
             driver.find_element_by_id('ReturnDepartDate1TextBox').click()
             driver.find_element_by_id('ReturnDepartDate1TextBox').send_keys(toDate)
             driver.find_element_by_id('ReturnDepartDate1TextBox').send_keys(Keys.TAB)
-        driver.find_element_by_id("DepartCity1TextBox").send_keys("")
+        else:
+            toDate = fromDate
+        driver.find_element_by_id('DepartCity1TextBox').click()
         driver.find_element_by_id("DepartCity1TextBox").send_keys(fromCity)
         driver.find_element_by_id("DepartCity1TextBox").send_keys(Keys.TAB)
         driver.find_element_by_id("ArriveCity1TextBox").click()
@@ -102,17 +102,18 @@ def bookflight():
             right = tmp.find_element_by_class_name('right').text.split("\n")
             txt["startime"] = right[0]
             txt["fromPlace"] = right[1]
-            left = tmp.find_element_by_class_name('left').text.replace("\n")
+            left = tmp.find_element_by_class_name('left').text.split("\n")
             txt["endtime"] = left[0]
             txt["toPlace"] = left[1]
             txt["unDelayRate"] = tmp.find_element_by_class_name('service').text.replace("\n", " ")
             txt["price"] = tmp.find_element_by_class_name('price').text.replace("\n", " ")
             list.append(txt)
-        driver.close()
+        driver.quit()
         display.stop()
+        print (list)
         return jsonify({'status': 200, 'data': list})
     except Exception, e:
-        driver.close()
+        driver.quit()
         display.stop()
         return jsonify({'status': -1, 'error': e})
 
@@ -123,8 +124,8 @@ def booktrain():
     fromDate = request.args.get('fromDate')
 
     try:
-        # display = Display(visible=0, size=(1024, 768))
-        # display.start()
+        display = Display(visible=0, size=(1024, 768))
+        display.start()
         driver = webdriver.Chrome(chrome_options=chrome_options)
         driver.get('http://train.qunar.com/')
         sleep(2)
@@ -158,13 +159,13 @@ def booktrain():
                 ticket["num"] = ticketNum[i]
                 txt["tickets"].append(ticket)
             trainllist.append(txt)
-        driver.close()
-        # display.stop()
+        driver.quit()
+        display.stop()
 
         return jsonify({'status': 200, 'data': trainllist})
     except Exception, e:
-        driver.close()
-        # display.stop()
+        driver.quit()
+        display.stop()
         return jsonify({'status': -1, 'error': e})
 
 @app.route('/')
@@ -173,4 +174,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=8001, debug=True)
